@@ -9,6 +9,7 @@
 5. **Classify the scheme:** exclusively Commonwealth; exclusively local; concurrent; cooperative/referral; applied; uniform/model but separately enacted; or uncertain.
 6. **Test displacement and interaction:** express exclusions, preserved laws, inconsistency, concurrent operation, double recovery, choice of forum, and remedies.
 7. **Map confidence by dimension:** distinguish a jurisdiction requiring investigation from legal-system coverage and the eventual substantive conclusion.
+8. **Prioritise uncertainty:** identify which missing facts could most change coverage, forum, deadline, liability, or remedy and state what evidence would resolve them.
 
 ## National schemes are not identical rules
 

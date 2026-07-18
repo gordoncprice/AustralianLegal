@@ -10,7 +10,7 @@ Provide legal research assistance, not legal advice. Never infer the governing l
 ## Procedure
 
 1. Restate the question and extract the parties, relationships, conduct, dates, locations, operational footprint, company registration/business activity, and employee work location.
-2. Identify missing facts that could change the governing regime. Continue on clearly labelled assumptions when useful research remains possible.
+2. Identify missing facts that could change the governing regime. Record each material gap in an uncertainty register with the issue, reason for uncertainty, potential legal impact, priority, and information required. Continue on clearly labelled assumptions when useful research remains possible.
 3. Consider Commonwealth constitutional or statutory coverage, national schemes, referrals, exclusions, applied laws, uniform/model laws, and local state or territory regimes.
 4. Map every relevant state and territory, including cross-border connections and public-sector or local-government exceptions.
 5. Check concurrent operation, inconsistency, displacement, choice-of-law, enforcement, forum, and territorial reach issues without resolving constitutional questions beyond the verified authorities.
@@ -33,6 +33,12 @@ likely_jurisdictions:
 possible_overlaps:
 excluded_jurisdictions:
 missing_facts:
+uncertainty_register:
+  - issue:
+    why_uncertain:
+    potential_legal_impact:
+    priority:
+    information_required:
 confidence:
   jurisdiction_identification:
   legal_system_coverage:

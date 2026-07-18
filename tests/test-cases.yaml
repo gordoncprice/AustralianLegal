@@ -155,7 +155,7 @@ cases:
     prompt: "Prepare a current, cited memorandum on whether a redundancy involving a Queensland employee is genuine and what Commonwealth and state obligations may apply."
     expected_trigger: [australian-legal-research-team]
     expected_not_trigger: []
-    required_process: "Complete all nine stages with separate reviewer, revision log, and post-revision final proposition audit."
+    required_process: "Complete all ten stages with separate reviewer, revision log, post-revision final proposition audit, and quality gate."
     required_output: "Proportionate memorandum distinguishing Centrelink notice under s 530, ss 531–533 registered employee-association notification/consultation, award or enterprise-agreement consultation, and s 389 genuine-redundancy consequences; jurisdiction/source artefacts, reviewed citations, date, confidence dimensions and disclaimer."
     prohibited_behaviours: "Characterise ss 531–533 as merely award or enterprise-agreement enforcement; conflate the four inquiries; skip independent review or final proposition audit; invoke specialists with unbounded duplicated tasks."
     pass_criteria: "Current authorised text supports each distinct redundancy proposition; coordinator reconciles specialists, addresses every serious review issue, and audits revisions for new unsupported claims."
@@ -210,3 +210,53 @@ cases:
     prohibited_behaviours: "Convert no search hit into no case exists; infer no duty from silence in one source; claim only/final authority without exact verification."
     pass_criteria: "Uses 'no matching official authority was located' or equivalent unless authoritative completeness establishes the categorical negative."
     likely_failure_modes: "Universal negative from one database; unqualified exclusion; missing source-completeness assessment."
+
+  - id: competing-authority-weight
+    prompt: "Two authorities support different answers: a recent professional article and an earlier appellate judgment. Research which position should be preferred."
+    expected_trigger: [australian-legal-research-team]
+    expected_not_trigger: []
+    required_process: "Verify the appellate judgment, hierarchy, holding, later treatment, statutory change and factual fit; use the article as a lead; search for stronger or later controlling authority."
+    required_output: "Proposition-specific authority assessment, controlling or persuasive status, stronger-authority check, treatment/current-law result, and reason for any lower-weight reliance."
+    prohibited_behaviours: "Choose the newer publication because it is newer; expose invented numerical authority scores; assume the appellate case remains controlling without change detection."
+    pass_criteria: "The strongest reasonably available authority controls the analysis unless a verified reason justifies a different result."
+    likely_failure_modes: "Publisher reputation substituted for hierarchy; holding and observation conflated; no later-treatment check."
+
+  - id: recent-amendment-transition
+    prompt: "This statutory provision was amended recently. Research which version applies to conduct spanning the amendment date."
+    expected_trigger: [australian-legal-research-team]
+    expected_not_trigger: []
+    required_process: "Compare point-in-time compilations, amendment and commencement provisions, application/savings/transitional rules, event dates and recent appellate treatment."
+    required_output: "Separate pre-change and post-change rules, commencement and transition analysis, material recent development, affected facts, uncertainty and sources."
+    prohibited_behaviours: "Apply the latest compilation to all conduct; equate assent with commencement; omit transitional provisions."
+    pass_criteria: "The operative version for each period is established or the exact unresolved temporal issue is prioritised."
+    likely_failure_modes: "Latest-text shortcut; amendment noticed but transition ignored; older case treated as definitive after statutory change."
+
+  - id: multi-issue-completeness
+    prompt: "A long-serving employee was dismissed after raising a safety concern during a restructure. Identify and research the material Australian employment issues."
+    expected_trigger: [australian-legal-research-team]
+    expected_not_trigger: []
+    required_process: "Ask what legal issues reasonably arise; test system and instrument coverage, dismissal/redundancy, protections, safety connection, process, deadlines, remedies and interactions; exclude unsupported peripheral regimes."
+    required_output: "Prioritised material issue map, reasons for inclusion, scoped analysis, critical facts and deadlines, and additional issues only if factually relevant."
+    prohibited_behaviours: "Discuss every checklist item mechanically; add tax, privacy, licensing or payroll tax without factual relevance; omit a central dismissal, safety or protections issue."
+    pass_criteria: "All reasonably arising material issues are identified and prioritised without irrelevant expansion."
+    likely_failure_modes: "Single-issue redundancy answer; checklist dumping; no interaction or deadline analysis."
+
+  - id: regulator-guidance-dependency
+    prompt: "The only source currently cited for a proposed employer obligation is Fair Work Ombudsman guidance. Prepare a reliable answer."
+    expected_trigger: [australian-legal-research-team]
+    expected_not_trigger: []
+    required_process: "Identify the guidance's legal status and any statutory footing; locate legislation, instruments and controlling decisions; document any source failure and dependency."
+    required_output: "Guidance labelled as regulator interpretation or guidance, strongest-authority analysis, source-dependency statement, confidence and exact next verification step."
+    prohibited_behaviours: "Present FWO guidance as binding law; discard it as irrelevant; claim multiple independent support from pages repeating the same rule."
+    pass_criteria: "A legal obligation is stated only to the extent supported by binding or appropriately weighted authority, with residual dependency disclosed."
+    likely_failure_modes: "Official publisher treated as legal force; no primary-source search; hidden single-source dependence."
+
+  - id: critical-facts-uncertainty
+    prompt: "Can this organisation dismiss the worker tomorrow? The employing entity, work location, employment status and governing instrument are unknown."
+    expected_trigger: [australian-legal-research-team]
+    expected_not_trigger: []
+    required_process: "Create a structured uncertainty register, prioritise facts by potential effect on jurisdiction, coverage, process, deadline and remedy, and proceed only through labelled scenarios."
+    required_output: "Issue, reason, legal impact, priority and information required for each material uncertainty; immediate factual enquiries, documents, critical timing and procedural risks."
+    prohibited_behaviours: "Give an unconditional answer; list missing facts without priority or legal impact; mix assumptions into conclusions."
+    pass_criteria: "The register identifies the employing entity and legal-system coverage among the highest-impact gaps and tells the solicitor what evidence to obtain next."
+    likely_failure_modes: "Generic caveat; unprioritised question list; no practical next steps or deadline warning."

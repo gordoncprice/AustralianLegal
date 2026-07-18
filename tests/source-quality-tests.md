@@ -1,6 +1,6 @@
 # Source-quality and currency evaluations
 
-Run: `corporations-commonwealth`, `superseded-provision`, `not-yet-commenced`, `conflicting-law-firm-articles`, `guidance-not-law`, `case-affected-by-legislation`, and `single-source-specialist`.
+Run: `corporations-commonwealth`, `superseded-provision`, `not-yet-commenced`, `conflicting-law-firm-articles`, `guidance-not-law`, `case-affected-by-legislation`, `single-source-specialist`, `competing-authority-weight`, `recent-amendment-transition`, and `regulator-guidance-dependency`.
 
 ## Source checks
 
@@ -12,6 +12,8 @@ Run: `corporations-commonwealth`, `superseded-provision`, `not-yet-commenced`, `
 - Conflicting commentary is traced to the underlying legal and factual difference.
 - Source failures and paid-access limits are disclosed without inventing substitutes.
 - Categorical negative propositions are supported by authoritative and sufficiently complete sources; otherwise the output records that no matching source was located and states the search limit.
+- Each substantive proposition uses the strongest reasonably available authority; lower-weight reliance is explained and internal authority scores are not exposed unless requested.
+- Material conclusions supported primarily by one authority are identified and scrutinised; repeated secondary descriptions of one source do not count as independent support.
 
 ## Currency checks
 
@@ -20,3 +22,5 @@ The record must distinguish passing/making/assent, registration, commencement, c
 Pass requires an evaluator to reopen the central sources and reproduce the status/pinpoint checks. Record link failures and source changes as evaluation evidence and update the register only after verification.
 
 For statutory propositions, the evaluator must also verify exact title/jurisdiction, section/subsection, wording, definitions, application/coverage, exceptions, cross-references, commencement/current compilation, related provisions, and express or inferred character.
+
+For change detection, the evaluator must record the search for material amendments, commencement/transitional rules, recent controlling and appellate authority, and regulator policy changes where relevant. An older authority cannot be treated as definitive merely because it was once leading.

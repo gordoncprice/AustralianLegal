@@ -21,6 +21,8 @@ Score each dimension from 0 to 2 and explain any zero. A high total does not cur
 
 Record publisher, jurisdiction, subject coverage, source type, authority level, official status, typical use, limitations, preferred citation, currency method, and verification date.
 
+Keep the numerical rubric internal unless the user specifically requests scores. In the source plan, explain authority weight qualitatively and record whether a stronger reasonably available source was checked. A lower-weight source cannot be upgraded merely because it is current, official, or convenient.
+
 ## Negative propositions
 
 A negative claim requires more than the absence of a search hit. Record the repositories, date range, jurisdictions, identifiers, search terms, and source limitations checked. Use a categorical claim only when an authoritative and sufficiently complete source establishes it. Otherwise report the bounded result, such as `no matching official authority was located`, and assign source-completeness confidence separately from confidence in any substantive conclusion.

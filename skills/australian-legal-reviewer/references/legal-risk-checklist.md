@@ -25,12 +25,27 @@
 - Ratio or holding distinguished from submissions, facts, dicta, and summaries?
 - Later appeal, treatment, conflicting authority, or legislative change checked?
 
+## Authority and change detection
+
+- Does each substantive proposition use the strongest reasonably available authority for that proposition and jurisdiction?
+- If a lower-weight source is used, is the reason sound and disclosed?
+- Has the draft checked material amendments, commencement/transitions, recent High Court or Full Court authority, significant appellate developments, and regulator policy changes where relevant?
+- Has an older authority been overstated despite later qualification or change?
+- Does any material conclusion depend heavily on one authority, and is that dependency disclosed and scrutinised?
+
 ## Weight and expression
 
 - Guidance, codes, explanatory material, commentary, and law-firm articles labelled by status?
 - Contrary material and fact-sensitive elements disclosed?
 - Conclusions no stronger than the evidence and confidence explanation?
 - Practical implications separated from tailored advice?
+
+## Completeness and uncertainty
+
+- Has the draft considered all legal issues reasonably arising from the facts without forcing irrelevant topics?
+- Does each material uncertainty state why it matters, its potential legal impact and priority, and the information required?
+- Are assumptions kept separate from conclusions?
+- Are immediate factual enquiries, required documents, critical deadlines and procedural risks identified where useful?
 
 ## Reviewer self-audit
 

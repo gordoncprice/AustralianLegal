@@ -26,9 +26,15 @@ For each issue: proposition and legal-effect label; primary authority and pinpoi
 
 Research-informed options, deadlines or evidence needs, without presenting tailored legal advice as definitive.
 
-## Unresolved matters
+Where useful, separate immediate factual enquiries, documents required, information still needed, critical deadlines, and potential procedural risks.
 
-Missing facts, unsettled questions, unavailable sources, currency limits, and recommended next checks.
+## Uncertainty register
+
+For each material uncertainty state the issue, why it is uncertain, potential legal impact, priority, and information required. Distinguish assumptions from conclusions.
+
+## Recent developments and source dependency
+
+Highlight material recent amendments, commencement/transitional issues, appellate developments, or policy changes. State when a conclusion primarily depends on one authority or is supported by multiple independent authorities.
 
 ## Confidence
 

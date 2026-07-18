@@ -2,7 +2,7 @@
 
 ## Decision rules
 
-- **Pass:** no unresolved critical or major issue; material propositions are traceable; jurisdiction and currency checks are adequate; minor issues do not affect the answer.
+- **Pass:** no unresolved critical or major issue; material propositions are traceable to the strongest reasonably available authority; issue-completeness, change-detection, source-dependency, uncertainty and currency checks are adequate; minor issues do not affect the answer.
 - **Pass with revisions:** no critical issue, but specified corrections are required before delivery. The reviewer can verify the corrected proposition without reopening the whole research task.
 - **Fail pending further research:** a critical issue, one or more unresolved major issues, or missing evidence makes the conclusion unreliable.
 
@@ -11,7 +11,7 @@
 | Severity | Meaning | Examples |
 |---|---|---|
 | Critical | Likely changes the answer or creates serious misleading risk | Wrong governing regime; fabricated authority; repealed rule presented as current; source contradicts the central claim |
-| Major | Material support or qualification is missing | No commencement check; controlling exception ignored; case treatment unchecked; guidance treated as law |
+| Major | Material support or qualification is missing | Stronger controlling authority overlooked; no commencement or material change check; controlling exception ignored; case treatment unchecked; guidance treated as law; high-impact uncertainty not prioritised |
 | Minor | Verifiability or clarity defect that does not presently alter the result | Incomplete pinpoint; ambiguous confidence wording; non-material formatting issue |
 
 ## Issue record

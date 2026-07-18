@@ -10,7 +10,7 @@ Map the Fair Work national system first without assuming coverage. Separately te
 
 ## Source role
 
-Plan for the current *Fair Work Act 2009* (Cth), operative award/agreement and variations, Fair Work Commission decisions and orders, Fair Work Ombudsman guidance labelled as guidance, and official New South Wales and Victorian legislation sources for preserved local subjects. Include commencement and case-treatment checks.
+Plan for the current *Fair Work Act 2009* (Cth), operative award/agreement and variations, Fair Work Commission decisions and orders, Fair Work Ombudsman guidance labelled as guidance, and official New South Wales and Victorian legislation sources for preserved local subjects. Prefer the strongest reasonably available authority for each proposition. Include commencement, transition, recent-change and case-treatment checks, and identify any conclusion that would depend primarily on one authority.
 
 ## Research role
 
@@ -23,7 +23,7 @@ Research national-system coverage, National Employment Standards redundancy pay,
 
 For a Queensland-system employee, first establish state-system coverage. Under the current *Industrial Relations Act 2016* (Qld), ss 125–127 apply only through their exact terms: s 125 requires an applicable industrial instrument and termination because the employer no longer requires the employee's job to be done by anyone, then states turnover and employee-category exclusions plus an avoidance qualification; s 126 sets the redundancy-pay entitlement and calculation subject to s 127; and s 127 permits the Queensland Industrial Relations Commission, on employer application, to reduce the amount where the employer obtains other acceptable employment or cannot pay. Verify the current text, definitions, instrument coverage, exceptions, and any other applicable provisions before stating an entitlement.
 
-List contrary or limiting cases and fact dependencies. Produce a cited draft without final approval.
+List contrary or limiting cases and fact dependencies. Maintain an uncertainty register prioritising the employing entity, system and instrument coverage, employee count, event date, role cessation, redeployment facts and process evidence by potential legal impact. Produce a cited draft without final approval.
 
 ## Review role
 
@@ -31,4 +31,4 @@ Challenge the employing-entity assumption, national-system coverage, operative i
 
 ## Final synthesis
 
-Answer conditionally, identify the likely national framework and possible local overlays, list the facts that could materially change coverage or entitlements, cite current official sources, state separate confidence dimensions and the research date, and recommend tailored advice where timing or dismissal risk is significant. Complete the final proposition audit after all revisions.
+Answer conditionally, identify the likely national framework and possible local overlays, list the facts and documents that could materially change coverage or entitlements, flag critical deadlines and procedural risks, cite current official sources, state separate confidence dimensions and the research date, and recommend tailored advice where timing or dismissal risk is significant. Complete the final proposition audit and quality gate after all revisions.
