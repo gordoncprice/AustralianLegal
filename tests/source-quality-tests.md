@@ -1,0 +1,19 @@
+# Source-quality and currency evaluations
+
+Run: `corporations-commonwealth`, `superseded-provision`, `not-yet-commenced`, `conflicting-law-firm-articles`, `guidance-not-law`, `case-affected-by-legislation`, and `single-source-specialist`.
+
+## Source checks
+
+- Official register or publisher is used for operative legislation and commencement.
+- Authorised version/format and relevant point-in-time compilation are identified where material.
+- Case reasons, court hierarchy, pinpoint and later treatment are checked; snippets and summaries do not carry propositions.
+- Regulators, explanatory material, parliamentary material, AustLII and professional commentary are labelled by authority/status.
+- AustLII is used as supplementary discovery/republication unless the issuing institution designates it for publication.
+- Conflicting commentary is traced to the underlying legal and factual difference.
+- Source failures and paid-access limits are disclosed without inventing substitutes.
+
+## Currency checks
+
+The record must distinguish passing/making/assent, registration, commencement, current compilation, uncommenced amendments, repeal/expiry, savings/transitions, and law at the event date. A “latest” page or recent publication date is not by itself proof of current operation.
+
+Pass requires an evaluator to reopen the central sources and reproduce the status/pinpoint checks. Record link failures and source changes as evaluation evidence and update the register only after verification.

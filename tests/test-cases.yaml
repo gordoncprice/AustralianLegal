@@ -1,0 +1,182 @@
+version: 1
+evaluation_date: "2026-07-18"
+cases:
+  - id: corporations-commonwealth
+    prompt: "Research the current statutory duties of a director of an Australian proprietary company and the main civil consequences of breach."
+    expected_trigger: [australian-legal-research-team]
+    expected_not_trigger: [australian-jurisdiction-checker]
+    required_process: "Map Commonwealth corporations law, verify current provisions and cases, check ASIC guidance status, independently review."
+    required_output: "Research date, Cth provisions and pinpoints, case hierarchy/treatment, consequences, qualifications, sources, confidence."
+    prohibited_behaviours: "Assume ASIC guidance is law; add irrelevant state employment law; claim finality."
+    pass_criteria: "Current primary law controls each material proposition and the review is evidenced."
+    likely_failure_modes: "Memory-only sections; unverified case treatment; generic directors' duties list."
+
+  - id: queensland-employment
+    prompt: "What employment obligations may apply when a Queensland local council dismisses an employee?"
+    expected_trigger: [australian-legal-research-team]
+    expected_not_trigger: []
+    required_process: "Test local-government and national-system coverage before researching merits."
+    required_output: "Queensland/Commonwealth map, missing employment facts, current official sources, conditional analysis."
+    prohibited_behaviours: "Assume all Queensland workers are under the Fair Work Act or all are under state law."
+    pass_criteria: "Coverage uncertainty and relevant Queensland regime are explicit and verified."
+    likely_failure_modes: "User-location inference; omitted industrial instrument; no event date."
+
+  - id: fair-work-long-service-leave
+    prompt: "An employee covered by the Fair Work Act is leaving after nine years. Research whether state long service leave law can still matter."
+    expected_trigger: [australian-legal-research-team]
+    expected_not_trigger: []
+    required_process: "Ask or assume the relevant state, test preserved local law and instrument coverage, research both regimes."
+    required_output: "Jurisdiction dependency, overlap explanation, missing facts, current sources and caveats."
+    prohibited_behaviours: "Treat national-system coverage as displacing every state employment law."
+    pass_criteria: "State is identified as material and no entitlement is stated without it."
+    likely_failure_modes: "Single-regime answer; confusion between redundancy and resignation rules."
+
+  - id: remote-cross-border-worker
+    prompt: "Which employment law jurisdictions may apply to an employee working remotely from New South Wales for a Victorian employer?"
+    expected_trigger: [australian-jurisdiction-checker]
+    expected_not_trigger: [australian-legal-research-team, australian-legal-reviewer]
+    required_process: "Map entity, system, work, conduct, contract, public/private and subject-specific connections."
+    required_output: "Likely/possible/excluded regimes, missing facts, overlaps, scope and confidence."
+    prohibited_behaviours: "Choose NSW from residence or Victoria from employer address alone; produce a full memorandum."
+    pass_criteria: "A bounded jurisdiction handoff is produced with cross-border qualifications."
+    likely_failure_modes: "Keyword match; no separate LSL/WHS/workers' compensation analysis."
+
+  - id: employee-contractor
+    prompt: "Research whether this sales representative is an employee or independent contractor; the written contract says contractor but work practices are unclear."
+    expected_trigger: [australian-legal-research-team]
+    expected_not_trigger: []
+    required_process: "Identify missing relationship facts, current statutory/common-law tests and temporal change, contrary indicators, review."
+    required_output: "Fact-sensitive framework, event dates, assumptions, uncertainty and sources."
+    prohibited_behaviours: "Treat the contract label as decisive; give a definitive classification on absent facts."
+    pass_criteria: "Conclusion is conditional and current legal test is verified."
+    likely_failure_modes: "Outdated multifactor test stated without legislative check; omitted tax/super distinction."
+
+  - id: public-sector-outside-national-system
+    prompt: "Research dismissal protections for a state public sector employee who may sit outside the national workplace system."
+    expected_trigger: [australian-legal-research-team]
+    expected_not_trigger: []
+    required_process: "Obtain state and employing entity, test exclusion, local legislation/instrument and any federal overlay."
+    required_output: "Conditional jurisdiction map, local tribunal/court path, deadlines as verifiable, sources."
+    prohibited_behaviours: "Default to Fair Work unfair dismissal; invent the state."
+    pass_criteria: "Missing state blocks any definitive answer but useful scoped research proceeds."
+    likely_failure_modes: "No public-sector distinction; generic federal answer."
+
+  - id: superseded-provision
+    prompt: "Use the attached older statutory extract as the rule for conduct occurring this year."
+    expected_trigger: [australian-legal-research-team]
+    expected_not_trigger: []
+    required_process: "Verify historical and current versions, amendments, transitions and event date before application."
+    required_output: "Status of supplied extract, operative replacement or uncertainty, source trail."
+    prohibited_behaviours: "Accept supplied text as current; silently update without explaining temporal effect."
+    pass_criteria: "Supersession is detected and legal timing is addressed."
+    likely_failure_modes: "Citation looks authentic so no current-law check occurs."
+
+  - id: not-yet-commenced
+    prompt: "Parliament passed an amendment last week. Does its new obligation apply today?"
+    expected_trigger: [australian-legal-research-team]
+    expected_not_trigger: []
+    required_process: "Separate passage, assent, registration and commencement; inspect proclamation/default rules and transitions."
+    required_output: "Current operative position, commencement evidence, future change and confidence."
+    prohibited_behaviours: "Equate passage or assent with commencement."
+    pass_criteria: "No application conclusion without official commencement verification."
+    likely_failure_modes: "News or explanatory memorandum treated as current law."
+
+  - id: conflicting-law-firm-articles
+    prompt: "Two law firm articles disagree about an employment entitlement. Tell me which is right."
+    expected_trigger: [australian-legal-research-team]
+    expected_not_trigger: []
+    required_process: "Use articles as leads, identify dates/facts, verify primary law and contrary authority, review."
+    required_output: "Reason for divergence, controlling sources, relevant dates and limits."
+    prohibited_behaviours: "Choose by reputation, recency or majority without primary-source analysis."
+    pass_criteria: "Conclusion is derived from verified authority rather than either article."
+    likely_failure_modes: "Secondary-source synthesis only; hidden jurisdiction difference."
+
+  - id: guidance-not-law
+    prompt: "The regulator website says employers should follow this process. Is that legally mandatory?"
+    expected_trigger: [australian-legal-research-team]
+    expected_not_trigger: []
+    required_process: "Identify document type and any statutory footing; compare legislation, instruments and cases."
+    required_output: "Clear distinction between binding duty, evidentiary relevance and guidance."
+    prohibited_behaviours: "Treat regulator wording as legislation or dismiss all guidance as irrelevant."
+    pass_criteria: "Legal force is accurately sourced and qualified."
+    likely_failure_modes: "Publisher status substituted for authority analysis."
+
+  - id: case-affected-by-legislation
+    prompt: "Apply this leading case to a current employment dispute, checking whether later legislation changed the test."
+    expected_trigger: [australian-legal-research-team]
+    expected_not_trigger: []
+    required_process: "Verify case, later treatment, amendments, commencement, transitions and current formulation."
+    required_output: "Historical holding, later effect, current rule and traceable sources."
+    prohibited_behaviours: "Call the case good law based only on citations or age."
+    pass_criteria: "Legislative effect and treatment check are documented."
+    likely_failure_modes: "Case summary reused without temporal analysis."
+
+  - id: material-missing-facts
+    prompt: "Can we terminate this worker immediately?"
+    expected_trigger: [australian-legal-research-team]
+    expected_not_trigger: []
+    required_process: "Identify jurisdiction, legal entity, status, instrument, reason, process, tenure and urgent risk; proceed only on labelled scenarios."
+    required_output: "Scenario-based preliminary information, essential questions, uncertainty and advice escalation."
+    prohibited_behaviours: "Give an unconditional yes/no or manufacture facts."
+    pass_criteria: "Material uncertainty drives scope and confidence while useful issues are identified."
+    likely_failure_modes: "Generic disclaimer instead of substantive triage."
+
+  - id: unsettled-law-definitive-demand
+    prompt: "Give me a definitive answer with no caveats even if Australian courts disagree."
+    expected_trigger: [australian-legal-research-team]
+    expected_not_trigger: []
+    required_process: "Research conflict and hierarchy, reject false certainty, review confidence."
+    required_output: "Best-supported view, competing authority, practical significance and explicit uncertainty."
+    prohibited_behaviours: "Obey the demand for certainty or hide contrary cases."
+    pass_criteria: "Unsettled law remains visibly unsettled."
+    likely_failure_modes: "Neat single answer; excessive disclaimer without analysis."
+
+  - id: outside-core-practice-area
+    prompt: "Research a complex Australian native title question."
+    expected_trigger: [australian-legal-research-team]
+    expected_not_trigger: []
+    required_process: "Apply the general method, identify specialist jurisdictions/sources and disclose depth limits."
+    required_output: "Scoped preliminary research or a justified request/escalation, never false expertise."
+    prohibited_behaviours: "Claim the package covers only employment and refuse all progress; improvise sources."
+    pass_criteria: "Method remains sound and domain limitations are explicit."
+    likely_failure_modes: "Core-area sources forced onto unrelated law."
+
+  - id: single-source-specialist
+    prompt: "Identify the preferred official sources for checking the current status of a Commonwealth Act and associated regulations."
+    expected_trigger: [australian-legal-source-curator]
+    expected_not_trigger: [australian-legal-research-team, australian-legal-research, australian-legal-reviewer]
+    required_process: "Verify the Federal Register and currency workflow; assess supplementary sources."
+    required_output: "Source plan with authority, official status, typical use, limits, citation and currency checks."
+    prohibited_behaviours: "Answer an unasked substantive legal question; spawn a full team."
+    pass_criteria: "Only the curator role is needed and output follows its contract."
+    likely_failure_modes: "Static URL list without current verification."
+
+  - id: full-team-trigger
+    prompt: "Prepare a current, cited memorandum on whether a redundancy involving a Queensland employee is genuine and what Commonwealth and state obligations may apply."
+    expected_trigger: [australian-legal-research-team]
+    expected_not_trigger: []
+    required_process: "Complete all eight stages with separate reviewer and revision log."
+    required_output: "Proportionate memorandum, jurisdiction/source artefacts, reviewed citations, date, confidence and disclaimer."
+    prohibited_behaviours: "Skip independent review; invoke specialists with unbounded duplicated tasks."
+    pass_criteria: "Coordinator reconciles specialists and addresses every serious review issue."
+    likely_failure_modes: "Parallel output pasted without synthesis; reviewer merely edits style."
+
+  - id: negative-nonlegal-trigger
+    prompt: "Write a friendly social media caption for our firm's office opening."
+    expected_trigger: []
+    expected_not_trigger: [australian-legal-research-team, australian-legal-research, australian-jurisdiction-checker, australian-legal-source-curator, australian-legal-reviewer]
+    required_process: "No legal skill workflow."
+    required_output: "A normal caption response."
+    prohibited_behaviours: "Invoke legal research because a law firm is mentioned; add legal disclaimer."
+    pass_criteria: "No package skill activates."
+    likely_failure_modes: "Over-broad metadata trigger."
+
+  - id: fabricated-citation-review
+    prompt: "Review the attached draft, which cites Example v Commonwealth [2025] HCA 99 at [404] for a central proposition."
+    expected_trigger: [australian-legal-reviewer]
+    expected_not_trigger: [australian-legal-research-team, australian-legal-research]
+    required_process: "Open and verify every central citation, report non-existence or mismatch, fail pending research if central."
+    required_output: "Decision, severity, affected claim, verification method, required correction and residual uncertainty."
+    prohibited_behaviours: "Assume citation is real; silently delete it and pass the draft."
+    pass_criteria: "The invalid citation and unsupported proposition are exposed as serious defects."
+    likely_failure_modes: "Citation-format check only; reviewer acts as copy editor."
