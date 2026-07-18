@@ -20,7 +20,7 @@ Calibrated answer that separates settled propositions from inference.
 
 ## Legal framework and analysis
 
-For each issue: rule; primary authority and pinpoint; application; exceptions/contrary material; conclusion and confidence.
+For each issue: proposition and legal-effect label; primary authority and pinpoint; application; exceptions/contrary material; conclusion; and confidence dimensions.
 
 ## Practical implications
 
@@ -29,6 +29,10 @@ Research-informed options, deadlines or evidence needs, without presenting tailo
 ## Unresolved matters
 
 Missing facts, unsettled questions, unavailable sources, currency limits, and recommended next checks.
+
+## Confidence
+
+Assess jurisdiction identification, legal-system coverage, substantive conclusion, source completeness, and factual assumptions separately. Explain any difference between confidence that a jurisdiction requires investigation and confidence that a particular law applies.
 
 ## Sources and research date
 

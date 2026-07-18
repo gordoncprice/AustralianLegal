@@ -27,3 +27,7 @@ Do not announce constitutional inconsistency from first principles. Locate the r
 4. Are local exceptions to a national scheme disclosed?
 5. Are cross-border and public-sector facts treated explicitly?
 6. Is each exclusion supported rather than assumed?
+
+## Negative proposition control
+
+Treat an exclusion as a proposition requiring evidence. Check the completeness and authority of the source set before stating that no law, duty, case, or jurisdiction applies. Unless non-existence is established through an authoritative and sufficiently complete source, state the bounded search result—for example, `no matching official authority was located in the sources checked as at [date]`—and identify the search limit. Do not convert silence in one Act, database, or search result into a universal negative.

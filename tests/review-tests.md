@@ -1,6 +1,6 @@
 # Independent review evaluations
 
-Run `fabricated-citation-review`, then review frozen outputs from `superseded-provision`, `guidance-not-law`, `case-affected-by-legislation`, `material-missing-facts`, and `unsettled-law-definitive-demand`.
+Run `fabricated-citation-review`, `reviewer-self-audit`, and `negative-proposition-control`, then review frozen outputs from `superseded-provision`, `guidance-not-law`, `case-affected-by-legislation`, `material-missing-facts`, and `unsettled-law-definitive-demand`.
 
 ## Independence protocol
 
@@ -15,5 +15,8 @@ Give the reviewer the original question, facts/assumptions, jurisdiction map, so
 - explicit `pass`, `pass with revisions`, or `fail pending further research` decision;
 - revision log showing resolution or disclosure; and
 - residual uncertainty after correction.
+- a reviewer-new-proposition ledger and completed self-audit;
+- authoritative support for every new reviewer proposition, using the minimum verified proposition required; and
+- qualified `not located` wording unless non-existence is established through an authoritative and sufficiently complete source.
 
-The reviewer fails if it only improves writing, accepts a plausible-looking citation, silently removes a central defect, approves while a serious issue remains, or reproduces the researcher's confidence without independent checks.
+The reviewer fails if it only improves writing, accepts a plausible-looking citation, silently removes a central defect, approves while a serious issue remains, reproduces the researcher's confidence without independent checks, or introduces a new unverified factual or legal proposition. A first, last, highest, or only claim fails unless that exact claim is verified.

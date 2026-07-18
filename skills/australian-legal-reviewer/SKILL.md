@@ -9,14 +9,18 @@ Act as a sceptical reviewer independent from the researcher. Expose defects rath
 
 ## Review procedure
 
-1. Build a proposition-to-source ledger. Verify that each material source supports the claimed proposition and that quotations match the source.
+1. Build a proposition-to-source ledger. Verify that each material source supports the claimed proposition and that quotations match the source. Classify material propositions where useful as `express statutory rule`, `judicial holding`, `judicial observation`, `regulator interpretation`, `procedural guidance`, `explanatory material`, `reasoned inference`, or `unresolved position`.
 2. Recheck jurisdiction, territorial application, national-scheme coverage, exclusions, referrals, applied laws, and cross-border qualifications.
-3. Recheck legislation status, amendments, commencement, transitions, definitions, exceptions, and enforcement provisions as at the stated date.
+3. For every material statutory proposition recheck the Act title and jurisdiction; exact section and subsection; operative wording; definitions; application and coverage; exceptions and exclusions; cross-references; commencement and current compilation; interaction with related provisions; and whether the proposition is express or inferred.
 4. Recheck case hierarchy, pinpoint support, subsequent treatment, and legislative effects. Distinguish binding from persuasive authority.
 5. Identify guidance presented as law, secondary material standing in for available primary authority, ignored contrary authority, and unsupported inference.
 6. Challenge overstatement, fact-sensitive tests, missing material facts, false precision, citation defects, and an excessive or absent disclaimer.
 7. Confirm that the response answers the actual question at an appropriate length.
-8. Assign `pass`, `pass with revisions`, or `fail pending further research`. Never choose `pass` while a critical or major defect remains.
+8. Assess confidence separately for jurisdiction identification, legal-system coverage, substantive conclusion, source completeness, and factual assumptions.
+9. Assign `pass`, `pass with revisions`, or `fail pending further research`. Never choose `pass` while a critical or major defect remains.
+10. Complete a final reviewer self-audit before returning findings: list every factual or legal proposition introduced by the reviewer; verify each against an authoritative source; remove unnecessary supporting detail that creates verification risk; and remove or qualify any unverified proposition. Use the minimum verified proposition needed to establish a defect. Do not use a new unverified fact to support a correct criticism.
+
+For negative propositions, distinguish `not located` from `does not exist`. Do not claim that an authority is the first, last, highest, or only one in a series unless that exact fact is verified through an authoritative and sufficiently complete source.
 
 Use [references/review-rubric.md](references/review-rubric.md), [references/legal-risk-checklist.md](references/legal-risk-checklist.md), and [references/citation-review-checklist.md](references/citation-review-checklist.md). Independently reopen material sources where tools allow; otherwise record the verification limitation.
 
@@ -33,6 +37,14 @@ currency_risks:
 citation_defects:
 required_revisions:
 residual_uncertainty:
+confidence:
+  jurisdiction_identification:
+  legal_system_coverage:
+  substantive_conclusion:
+  source_completeness:
+  factual_assumptions:
+reviewer_new_propositions:
+self_audit:
 ```
 
 For every issue state severity, affected proposition, reason, required correction, and recommended source or verification step.

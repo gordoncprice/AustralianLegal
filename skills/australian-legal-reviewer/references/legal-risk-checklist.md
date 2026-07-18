@@ -17,6 +17,7 @@
 - Correct title, jurisdiction, provision, version, and event date?
 - In force, repealed, expired, superseded, or awaiting commencement?
 - Definitions, application clauses, exceptions, defences, remedies, and transitional rules considered?
+- Exact section and subsection, operative wording, coverage, cross-references, related provisions, and express/inferred character verified?
 
 ## Cases
 
@@ -30,3 +31,11 @@
 - Contrary material and fact-sensitive elements disclosed?
 - Conclusions no stronger than the evidence and confidence explanation?
 - Practical implications separated from tailored advice?
+
+## Reviewer self-audit
+
+- Is every new reviewer proposition identified and supported by an opened authoritative source?
+- Has unnecessary supporting detail been removed?
+- Are bounded search results described as `not located` rather than non-existence?
+- Are first, last, highest, and only claims absent unless exactly verified?
+- Does each criticism rest on the minimum verified proposition required?

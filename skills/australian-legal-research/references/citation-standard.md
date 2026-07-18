@@ -22,3 +22,4 @@ Identify the issuing body, title, document type/date, pinpoint if available, off
 - Distinguish primary, official secondary, and unofficial material.
 - Prefer links to official pages; add a recognised repository only when useful.
 - State that a primary source was not located rather than substituting an unattributed summary.
+- Do not claim that a case, citation, source, or provision is the first, last, highest, only, or non-existent unless that exact proposition is established by an authoritative and sufficiently complete source.

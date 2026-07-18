@@ -17,3 +17,5 @@
 ## Issue record
 
 For each issue record: severity; affected proposition; source checked; reason; consequence; required correction; recommended verification; and whether the correction was completed. Never reduce severity merely because the draft is well written.
+
+The review itself fails if it introduces an unverified material proposition, makes an unsupported categorical negative, or uses an unverified first/last/highest/only claim. Complete and record the reviewer self-audit before assigning the final decision.

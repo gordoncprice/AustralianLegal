@@ -9,7 +9,8 @@
 5. **Jurisdiction audit:** test the completed draft, not just the intake.
 6. **Independent review:** give the reviewer the frozen draft and evidence bundle. The reviewer must not have authored a research stream and must not be instructed to confirm the result.
 7. **Revision:** maintain an issue log. Address every critical and major item, disclose unresolved medium-risk issues, and remove unsupported claims.
-8. **Delivery:** use a proportionate final structure, traceable sources, research date, confidence, unresolved facts, and legal-information disclaimer.
+8. **Final proposition audit:** after revision, recheck every material proposition for exact source support, overbreadth, missing qualifications, currency, legal-effect label, and new unsupported content introduced during revision. Record completion.
+9. **Delivery:** use a proportionate final structure, traceable sources, research date, separate confidence dimensions, unresolved facts, and legal-information disclaimer.
 
 ## Parallel boundaries
 
@@ -17,7 +18,7 @@ Suitable parallel streams include legislation/commencement, cases/treatment, reg
 
 ## Sequential fallback
 
-When specialist agents are unavailable, complete and save each artefact before changing roles. At minimum preserve headings for jurisdiction assessment, source plan, researcher draft, reviewer findings, revision log, and final synthesis. The review pass must reopen material sources and challenge the frozen draft.
+When specialist agents are unavailable, complete and save each artefact before changing roles. At minimum preserve headings for jurisdiction assessment, source plan, researcher draft, reviewer findings, revision log, final proposition audit, and final synthesis. The review pass must reopen material sources and challenge the frozen draft.
 
 ## Stop conditions
 

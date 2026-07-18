@@ -11,14 +11,15 @@ Provide legal research information, not legal advice. Do not claim final approva
 
 1. Restate the issue neutrally. List material facts, assumptions, requested date, and missing facts.
 2. Obtain or create a jurisdiction assessment and authoritative source plan before drawing conclusions.
-3. Research current legislation and instruments. Inspect definitions, objects, application, operative rules, exceptions, enforcement, remedies, and related provisions.
+3. Research current legislation and instruments. For every material statutory proposition verify the Act title and jurisdiction; exact section and subsection; operative wording; definitions; application and coverage; exceptions and exclusions; cross-references; commencement and current compilation; interaction with related provisions; and whether the proposition is express or inferred. Do not summarise more broadly than the text and context justify.
 4. Verify compilation status, amendments, commencement, savings, transitional provisions, repeal, expiry, and any not-yet-commenced rules as at the research date.
 5. Find relevant cases and tribunal decisions. Record court, date, neutral citation, pinpoint, hierarchy, treatment, and whether each authority is binding or persuasive.
 6. Check later judicial treatment and legislative change where reasonably possible. Do not state that a case is good law without a documented check.
 7. Research regulator and government guidance, explanatory and parliamentary material, and authoritative commentary. Label their status and weight.
-8. Seek contrary, limiting, and factually distinguishing material. Separate verified propositions from interpretation and inference.
-9. Synthesize a cited draft with calibrated confidence and practical implications. Remove or qualify any proposition that cannot be traced.
-10. Package the work for an independent reviewer; do not mark it finally approved.
+8. Seek contrary, limiting, and factually distinguishing material. Verify negative propositions against an authoritative and sufficiently complete source set; otherwise say what was not located in the sources checked and state the limit.
+9. Label material propositions where useful as `express statutory rule`, `judicial holding`, `judicial observation`, `regulator interpretation`, `procedural guidance`, `explanatory material`, `reasoned inference`, or `unresolved position`.
+10. Synthesize a cited draft with practical implications and separate confidence assessments for jurisdiction identification, legal-system coverage, substantive conclusion, source completeness, and factual assumptions. Remove or qualify any proposition that cannot be traced.
+11. Package the work for an independent reviewer; do not mark it finally approved.
 
 Read [references/research-method.md](references/research-method.md) for search and currency techniques, [references/citation-standard.md](references/citation-standard.md) before citing, and [references/output-template.md](references/output-template.md) when a memorandum or structured handoff is requested.
 
@@ -35,6 +36,11 @@ assumptions:
 unresolved_questions:
 draft_answer:
 confidence:
+  jurisdiction_identification:
+  legal_system_coverage:
+  substantive_conclusion:
+  source_completeness:
+  factual_assumptions:
 research_date:
 ```
 

@@ -12,7 +12,9 @@
 
 ## Evidence ledger
 
-Maintain a working ledger with: proposition; source; pinpoint; jurisdiction; authority level; current-status check; contrary material; and confidence. A search-result snippet is not evidence. Open the source.
+Maintain a working ledger with: proposition; legal-effect label; source; pinpoint; jurisdiction; authority level; current-status check; contrary material; and confidence dimensions. Use `express statutory rule`, `judicial holding`, `judicial observation`, `regulator interpretation`, `procedural guidance`, `explanatory material`, `reasoned inference`, or `unresolved position` where useful. A search-result snippet is not evidence. Open the source.
+
+For each material statutory proposition, check the exact title and jurisdiction, section and subsection, operative wording, relevant definitions, application and coverage, exceptions and exclusions, cross-references, commencement and current compilation, related provisions, and whether the statement is express or inferred.
 
 ## Current-law protocol
 
@@ -26,4 +28,4 @@ Maintain a working ledger with: proposition; source; pinpoint; jurisdiction; aut
 
 ## Failure handling
 
-If an official source is unavailable, record the failure and use a recognised supplementary source with reduced confidence. Never reconstruct statutory wording, quotations, citations, or case treatment from memory. If research falls outside the package's core fields, retain the same method, identify domain-specific sources, and disclose any expertise or source gap.
+If an official source is unavailable, record the failure and use a recognised supplementary source with reduced confidence. Never reconstruct statutory wording, quotations, citations, or case treatment from memory. The failure to locate a source does not establish that it does not exist: state the sources and limits checked and use qualified language. If research falls outside the package's core fields, retain the same method, identify domain-specific sources, and disclose any expertise or source gap.

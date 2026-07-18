@@ -11,9 +11,12 @@ Run: `corporations-commonwealth`, `superseded-provision`, `not-yet-commenced`, `
 - AustLII is used as supplementary discovery/republication unless the issuing institution designates it for publication.
 - Conflicting commentary is traced to the underlying legal and factual difference.
 - Source failures and paid-access limits are disclosed without inventing substitutes.
+- Categorical negative propositions are supported by authoritative and sufficiently complete sources; otherwise the output records that no matching source was located and states the search limit.
 
 ## Currency checks
 
 The record must distinguish passing/making/assent, registration, commencement, current compilation, uncommenced amendments, repeal/expiry, savings/transitions, and law at the event date. A “latest” page or recent publication date is not by itself proof of current operation.
 
 Pass requires an evaluator to reopen the central sources and reproduce the status/pinpoint checks. Record link failures and source changes as evaluation evidence and update the register only after verification.
+
+For statutory propositions, the evaluator must also verify exact title/jurisdiction, section/subsection, wording, definitions, application/coverage, exceptions, cross-references, commencement/current compilation, related provisions, and express or inferred character.

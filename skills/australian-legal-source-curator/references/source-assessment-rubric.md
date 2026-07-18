@@ -20,3 +20,7 @@ Score each dimension from 0 to 2 and explain any zero. A high total does not cur
 - **Reject:** unverifiable, contradicted, fabricated, obsolete for the relevant date, or outside the governing jurisdiction.
 
 Record publisher, jurisdiction, subject coverage, source type, authority level, official status, typical use, limitations, preferred citation, currency method, and verification date.
+
+## Negative propositions
+
+A negative claim requires more than the absence of a search hit. Record the repositories, date range, jurisdictions, identifiers, search terms, and source limitations checked. Use a categorical claim only when an authoritative and sufficiently complete source establishes it. Otherwise report the bounded result, such as `no matching official authority was located`, and assign source-completeness confidence separately from confidence in any substantive conclusion.

@@ -13,6 +13,11 @@ possible_overlaps:
 excluded_jurisdictions:
 missing_facts:
 confidence:
+  jurisdiction_identification:
+  legal_system_coverage:
+  substantive_conclusion:
+  source_completeness:
+  factual_assumptions:
 research_warnings:
 ```
 
@@ -41,6 +46,11 @@ assumptions:
 unresolved_questions:
 draft_answer:
 confidence:
+  jurisdiction_identification:
+  legal_system_coverage:
+  substantive_conclusion:
+  source_completeness:
+  factual_assumptions:
 ```
 
 ## Review handoff
@@ -56,6 +66,22 @@ currency_risks:
 citation_defects:
 required_revisions:
 residual_uncertainty:
+reviewer_new_propositions:
+self_audit:
 ```
 
-Each authority entry should contain a stable identifier or URL, pinpoint, source type, official status, relevant date, currency/treatment check, and proposition supported. Each agent must identify tools used, failed checks, and material limitations.
+## Final proposition audit handoff
+
+```yaml
+material_propositions:
+exact_support_checked:
+overbreadth_checked:
+exceptions_checked:
+currency_checked:
+legal_effect_labels_checked:
+revision_introduced_claims_checked:
+remaining_limitations:
+complete:
+```
+
+Each authority entry should contain a stable identifier or URL, pinpoint, source type or legal-effect label, official status, relevant date, currency/treatment check, and proposition supported. Each agent must identify tools used, failed checks, and material limitations.
