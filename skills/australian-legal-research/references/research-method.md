@@ -1,5 +1,31 @@
 # Research method
 
+## Frozen research specification
+
+Before searching, freeze: the question; material supplied facts; assumptions; event and research dates; jurisdictions and court hierarchy; material issues and propositions; requested deliverable; and research-depth class. Treat substantially identical inputs as the same specification. Use the same search order and mandatory authority categories. Change the specification only for a material new fact, issue, jurisdiction, date or user instruction, and record the change.
+
+Classify depth by these rules:
+
+- **Focused:** one narrowly framed proposition or immediate issue, no unresolved multi-regime interaction, and no request for a memorandum. Verify governing legislation, controlling authority, material later authority and material contrary or limiting authority. Search analogous authority only where needed to apply a fact-sensitive test. Stop when those categories and currency checks are complete and further results are cumulative or immaterial.
+- **Comprehensive:** multiple material issues, regimes or jurisdictions; a requested memorandum; substantial legal or factual complexity; unsettled law; or consequences requiring wider treatment. Complete the full case-discovery sequence and continue until each material issue has adequate hierarchy, treatment, application and contrary-authority coverage and further results are cumulative or immaterial.
+
+Do not expand a focused task because more material exists. Do not compress a comprehensive task because a leading authority was found. A longer search must fill a recorded gap or materially improve authority, currency, application, qualification or confidence.
+
+## Shared internal research record
+
+Maintain one internal record, not shown to the user, as the authoritative handoff package. Record:
+
+- frozen research specification and any versioned scope change;
+- legislation and instruments searched, versions, provisions and currency checks;
+- case databases and repositories searched, queries, filters, date ranges, access limits and search dates;
+- candidate cases found, with stable identifiers and possible functions;
+- authorities selected, their analytical purpose, hierarchy, treatment, pinpoint and verified direct link;
+- authorities rejected and the proposition-specific reason, including cumulative, weak analogy, wrong statutory context, lower weight, adverse treatment or irrelevance;
+- completed and failed link or source verification;
+- unresolved research gaps, targeted follow-up and stopping basis.
+
+Every downstream role must consume this record. Append corrections and targeted supplementary searches; do not create a parallel ledger or repeat completed discovery or verification without a recorded reason.
+
 ## Search order
 
 1. Define the proposition and jurisdiction before searching.
@@ -12,13 +38,13 @@
 
 ## Case-law discovery and selection
 
-For every material case-law issue:
+For every material case-law issue, execute this fixed sequence:
 
 1. Start from the jurisdiction and applicable court hierarchy supplied by the jurisdiction map.
-2. Search separately for controlling High Court authority; controlling or materially relevant intermediate appellate authority; later cases applying, explaining, distinguishing, limiting or qualifying the leading authorities; superior-court authority in the applicable jurisdiction; factually analogous decisions; significant contrary or competing authority; useful tribunal decisions; and recent cases that may refine the position.
+2. Search governing legislation; controlling High Court authority; controlling or materially relevant intermediate appellate authority; later cases applying, explaining, distinguishing, limiting or qualifying the leading authorities; superior-court authority in the applicable jurisdiction; significant contrary or competing authority; factually analogous decisions where useful; specialist or tribunal decisions where useful; and recent cases that may refine the position.
 3. Use citation-history and citing-case searches for treatment, plus statutory language, doctrinal terms and material factual features for application cases. Record repositories, search terms, date ranges and access limits.
 4. Maintain a candidate ledger containing the case name and neutral citation, court, hierarchy, issue, holding or observation, factual fit, later treatment, current statutory context, full-text judgment URL and possible analytical function.
-5. Continue discovery until the hierarchy, treatment and factual searches have been completed and additional authorities are cumulative or do not materially improve the answer. Record the stopping basis. Finding one leading case is not a stopping basis; no fixed number of cases is required.
+5. Apply the frozen depth class. For focused research, stop when governing legislation, controlling authority, material later authority, material contrary or limiting authority and currency are verified; add analogy only when application genuinely requires it. For comprehensive research, continue until the required hierarchy, treatment, application and contrary-authority searches for every material issue are complete. In either class, record the stopping basis; finding one leading case or reaching a case count is not sufficient.
 6. Select only authorities that perform a necessary function: state the controlling test; explain a disputed element; apply the test to comparable facts; distinguish a materially different arrangement; identify an exception or boundary; reveal conflict or uncertainty; or confirm the current treatment of an older authority.
 7. Exclude cumulative, topically related or weakly analogous cases that do not change the analysis. Never present a lower-level decision as controlling because it is newer or factually similar.
 

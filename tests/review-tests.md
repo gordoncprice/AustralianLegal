@@ -25,5 +25,8 @@ Give the reviewer the original question, facts/assumptions, jurisdiction map, so
 - verified judgment-level case links, metadata and pinpoints;
 - a discovery-coverage finding addressing controlling, later, analogous, contrary/limiting and recent authority; and
 - a case-selection finding requiring an analytical purpose and rejecting cumulative or irrelevant authorities.
+- separate certification of jurisdiction, authority-discovery, authority-selection, citation-coverage and link-verification gates;
+- the shared internal research record and any deficiency-specific supplementary search, without a second full discovery record; and
+- a delivery prohibition until all mandatory gates pass after revision.
 
-The reviewer fails if it only improves writing, accepts a plausible-looking citation, silently removes a central defect, approves while a serious issue remains, reproduces the researcher's confidence without independent checks, introduces a new unverified factual or legal proposition, treats paragraph-end citation density as proposition support, or accepts case dumping as research quality. A first, last, highest, or only claim fails unless that exact claim is verified.
+The reviewer fails if it only improves writing, accepts a plausible-looking citation, silently removes a central defect, approves while a serious issue or failed gate remains, reproduces the researcher's confidence without independent checks, repeats the whole discovery process without a named deficiency, introduces a new unverified factual or legal proposition, treats paragraph-end citation density as proposition support, accepts a missing statute or judgment link, or accepts case dumping as research quality. A first, last, highest, or only claim fails unless that exact claim is verified.

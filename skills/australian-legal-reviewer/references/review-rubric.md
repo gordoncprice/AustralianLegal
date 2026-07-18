@@ -2,9 +2,11 @@
 
 ## Decision rules
 
-- **Pass:** no unresolved critical or major issue; material propositions are traceable to the strongest reasonably available authority; issue-completeness, change-detection, source-dependency, uncertainty and currency checks are adequate; minor issues do not affect the answer.
+- **Pass:** jurisdiction, authority discovery, authority selection, citation coverage and link verification are each certified; no unresolved critical or major issue remains; material propositions are traceable to the strongest reasonably available authority; issue-completeness, change-detection, source-dependency, uncertainty and currency checks are adequate; minor issues do not affect the answer.
 - **Pass with revisions:** no critical issue, but specified corrections are required before delivery. The reviewer can verify the corrected proposition without reopening the whole research task.
 - **Fail pending further research:** a critical issue, one or more unresolved major issues, or missing evidence makes the conclusion unreliable.
+
+`Pass with revisions` is not delivery approval. After revision, recertify all five preceding gates. Request only deficiency-specific supplementary research and record its target and result in the shared internal research record.
 
 ## Severity
 

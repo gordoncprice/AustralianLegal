@@ -1,5 +1,5 @@
 version: 1
-evaluation_date: "2026-07-18"
+evaluation_date: "2026-07-19"
 cases:
   - id: corporations-commonwealth
     prompt: "Research the current statutory duties of a director of an Australian proprietary company and the main civil consequences of breach."
@@ -312,3 +312,40 @@ cases:
     prohibited_behaviours: "Treat citation volume as quality; preserve a long list without purpose; prefer recent lower authority over controlling precedent; demand a fixed numerical quota."
     pass_criteria: "The reviewer rejects cumulative and irrelevant authorities, preserves necessary hierarchy and coverage, and requires each included case to perform a clear analytical function."
     likely_failure_modes: "Case count used as metric; no hierarchy check; all cases accepted as topically relevant; useful contrary authority removed with the padding."
+
+  - id: deterministic-focused-proposition
+    prompt: "Research whether a narrow statutory employment obligation applies on the stated facts, including its controlling provision and material exception."
+    fixture_requirements: "Supply one fixed Australian jurisdiction, employing-entity status, event date, complete facts needed for coverage, and one identified statutory obligation. Keep the fixture and research date identical across runs."
+    repeat_runs: 3
+    expected_trigger: [australian-legal-research-team]
+    expected_not_trigger: []
+    required_process: "Freeze a focused research specification; verify governing legislation, controlling authority, material later authority, material contrary or limiting authority, currency and links; maintain one internal research record; stop when all six gates pass."
+    required_output: "Concise short answer, governing law, principal authorities where material, application, qualifications and exceptions, cited conclusion, direct statute and case links, bounded completeness statement, research date and disclaimer."
+    stability_dimensions: "Governing provisions, principal authorities, material propositions, exception, citations, preferred direct links and conclusion remain materially equivalent across all three fresh runs."
+    prohibited_behaviours: "Escalate automatically to exhaustive case discovery; omit a material exception in one run; vary principal authority without a recorded source reason; expose the internal research record."
+    pass_criteria: "All runs use focused research, pass every mandatory gate and differ only stylistically in their core legal content."
+    likely_failure_modes: "One run stops at legislation while another finds controlling authority; variable citation density; different exception treatment; longer run adds only cumulative cases."
+
+  - id: deterministic-comprehensive-memorandum
+    prompt: "Prepare a current cited memorandum on the Australian legal issues arising from a fixed cross-border employment dispute involving possible Commonwealth and State regimes."
+    fixture_requirements: "Supply the same complete employing-entity, work-location, contract, event-date, status, instrument and dispute facts for every run. Use a frozen evaluator issue map but do not expose it to the agent."
+    repeat_runs: 3
+    expected_trigger: [australian-legal-research-team]
+    expected_not_trigger: []
+    required_process: "Freeze a comprehensive specification; map regimes separately; execute the ordered source plan once; record legislation, databases, candidates, selection and rejection reasons; independently audit and use only targeted supplementary research for a named deficiency; certify all gates."
+    required_output: "Stable short answer, governing law, principal-authority table with court/status/purpose/link/pinpoint, cited application, qualifications and exceptions, conclusion, research-completeness statement, date and disclaimer."
+    stability_dimensions: "Material jurisdictions, provisions, principal authorities, propositions, qualifications, exceptions, citations, links and conclusions remain materially equivalent across all three fresh runs."
+    prohibited_behaviours: "Concatenate specialist reports; let each role repeat discovery; silently change issue scope; deliver after a failed gate; treat extra execution time or case volume as quality."
+    pass_criteria: "All runs cover the same material legal content and authority set subject only to recorded source availability, and each trace shows one shared research record rather than duplicated research."
+    likely_failure_modes: "Different regimes or appellate authorities across runs; reviewer conducts a second full search; citation deserts; one run omits a material qualification; no stopping basis."
+
+  - id: reviewer-targeted-research-only
+    prompt: "Review the attached researched answer and internal research record. The record covers all planned categories except later treatment of one principal appellate case."
+    fixture_requirements: "Provide a frozen draft and record with authentic sources, completed searches and one clearly bounded later-treatment gap."
+    expected_trigger: [australian-legal-reviewer]
+    expected_not_trigger: [australian-legal-research-team, australian-legal-research]
+    required_process: "Audit the existing record and material sources; fail the authority-discovery gate; specify and perform or request only the missing later-treatment check; append the result; recertify the gates after correction."
+    required_output: "Named gate defect, affected authority, targeted verification, updated record, decision and gate certification."
+    prohibited_behaviours: "Repeat legislation, jurisdiction, analogy or contrary-authority searches already recorded; create a second research record; pass before the treatment gap is resolved or disclosed."
+    pass_criteria: "The reviewer preserves independence through audit and source reopening while limiting new research to the identified deficiency."
+    likely_failure_modes: "Full research restart; silent repair; duplicate record; gate certification omitted."
