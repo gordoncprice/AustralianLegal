@@ -25,6 +25,8 @@ confidence:
   source_completeness:
   factual_assumptions:
 research_warnings:
+safe_to_proceed_conditionally:
+conclusions_not_yet_safe:
 ```
 
 ## Source-plan handoff
@@ -61,6 +63,7 @@ uncertainty_register:
     priority:
     information_required:
 practical_next_steps:
+conclusion_status: supported | provisional | conditional | unresolved | cannot safely conclude
 draft_answer:
 confidence:
   jurisdiction_identification:
@@ -135,3 +138,5 @@ complete:
 ```
 
 Each authority entry should contain a stable identifier or URL, pinpoint, source type or legal-effect label, official status, relevant date, currency/treatment check, and proposition supported. Each agent must identify tools used, failed checks, and material limitations.
+
+Rank uncertainty entries as `outcome-determinative`, `materially relevant`, or `secondary/evidentiary`. Ordinarily pass only the first two categories into the final answer. A handoff must place the material qualification before any conclusion that depends on it.

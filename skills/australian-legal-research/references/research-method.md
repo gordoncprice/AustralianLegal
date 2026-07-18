@@ -16,6 +16,8 @@ Maintain a working ledger with: proposition; legal-effect label; source; pinpoin
 
 For each material statutory proposition, check the exact title and jurisdiction, section and subsection, operative wording, relevant definitions, application and coverage, exceptions and exclusions, cross-references, commencement and current compilation, related provisions, and whether the statement is express or inferred.
 
+When several provisions are cited together, create an internal provision-function check. For each provision identify whether it governs application, coverage, entitlement, calculation, exclusion, transfer, notice, consultation, procedure, remedy, discretion, variation or reduction; verify thresholds and preconditions; and omit provisions not relevant to the facts. Do not present a section range as one undifferentiated duty.
+
 ## Issue-completeness review
 
 Ask: `What legal issues could reasonably arise from these facts?` Consider, only where genuinely relevant: jurisdiction; applicable legal system; standing; coverage; definitions; limitation periods; commencement; transitional provisions; delegated legislation; industrial instruments; procedural obligations; notice; consultation; statutory elements; burden of proof; defences; exceptions; discretions; remedies; penalties; review and appeal rights; interaction with other legislation; regulator powers; recent appellate authority; conflicting authority; and unresolved questions. Record why a potentially material issue was included or excluded when the choice is not obvious. Do not force irrelevant discussion.
@@ -40,7 +42,11 @@ Record whether each material conclusion is supported by multiple independent aut
 
 ## Uncertainty register
 
-For each unresolved issue record: issue; why uncertain; potential legal impact; priority; and information required. Prioritise the facts or sources most capable of changing jurisdiction, coverage, liability, deadline, procedure, or remedy. Keep assumptions separate from conclusions.
+For each unresolved issue record: issue; why uncertain; potential legal impact; priority; and information required. Rank it as outcome-determinative, materially relevant, or secondary/evidentiary. Prioritise the smallest set of facts or sources most capable of changing jurisdiction, coverage, liability, entitlement, deadline, procedure, or remedy. Put a material qualification before the conclusion it controls. Ordinarily omit secondary/evidentiary gaps from the final answer. Keep assumptions separate from conclusions.
+
+## Proportionality
+
+Choose depth, structure and length by the user's question, legal complexity, urgency, risk, jurisdictions and plausible claims or regimes. Lead with the direct rule or action list for a narrow or urgent task. Include only issues and caveats that affect the immediate task, avoid repeating qualifications, and omit background that does not change the answer. For a next-24-hours checklist, separate essential documents, dates, preservation and instructions from useful follow-up. For a simple statutory question, give the rule, controlling provision and material exception without exposing the full workflow.
 
 ## Failure handling
 

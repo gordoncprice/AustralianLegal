@@ -10,6 +10,11 @@
 6. **Test displacement and interaction:** express exclusions, preserved laws, inconsistency, concurrent operation, double recovery, choice of forum, and remedies.
 7. **Map confidence by dimension:** distinguish a jurisdiction requiring investigation from legal-system coverage and the eventual substantive conclusion.
 8. **Prioritise uncertainty:** identify which missing facts could most change coverage, forum, deadline, liability, or remedy and state what evidence would resolve them.
+9. **Set the handoff boundary:** state whether substantive research may proceed conditionally, the assumptions required, and which conclusions cannot safely be reached.
+
+## Mandatory escalation triggers
+
+Run at least a brief jurisdiction and coverage check when the facts involve Commonwealth/state or territory coverage, place of work, employer location or identity, contract formation, remote or interstate work, state entitlements, workers compensation, long service leave, discrimination, public-sector or local-government employment, constitutional-corporation status, referrals, foreign elements, choice of law, or forum. These checks cannot be waived by a user, although their visible presentation may be minimised.
 
 ## National schemes are not identical rules
 
