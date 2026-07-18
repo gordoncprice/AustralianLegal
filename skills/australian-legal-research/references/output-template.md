@@ -12,15 +12,23 @@ Material supplied facts, assumptions, and missing facts.
 
 ## Jurisdiction
 
-Likely and possible regimes, exclusions, overlap warnings, and confidence.
+Likely and possible regimes, exclusions, overlap warnings, confidence, and cited basis for the governing framework.
 
 ## Brief answer
 
 Calibrated answer that separates settled propositions from inference.
 
+## Principal authorities
+
+Present the controlling and materially useful authorities in a concise table or narrative. For each significant case give the hyperlinked case name and neutral citation, court and precedential status, proposition supported, why it matters, and a verified pinpoint where the analysis depends on a passage. Omit cumulative cases.
+
 ## Legal framework and analysis
 
-For each issue: proposition and legal-effect label; primary authority and pinpoint; application; exceptions/contrary material; conclusion; and confidence dimensions.
+For each issue: proposition and legal-effect label; immediate citation to primary authority and pinpoint; labelled application or inference; exceptions and contrary or limiting authority; supported conclusion; and confidence dimensions. Every material application point and conclusion must be traceable to authority.
+
+## Contrary or limiting authority
+
+Identify significant competing, distinguishing or limiting authority where it could materially affect the answer. Explain its effect rather than listing it.
 
 ## Practical implications
 
@@ -30,7 +38,7 @@ Where useful, separate immediate factual enquiries, documents required, informat
 
 ## Uncertainty register
 
-For each material uncertainty state the issue, why it is uncertain, potential legal impact, priority, and information required. Distinguish assumptions from conclusions.
+For each material uncertainty state the issue, why it is uncertain, potential legal impact, priority, information required, and supporting authority where the uncertainty depends on law or sourced material. Distinguish supplied facts, assumptions and inferences from conclusions.
 
 ## Recent developments and source dependency
 

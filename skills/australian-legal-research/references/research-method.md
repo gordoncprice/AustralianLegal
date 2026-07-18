@@ -10,9 +10,23 @@
 6. Locate official regulator guidance and enforcement material. Label it as guidance unless a legal instrument gives it another status.
 7. Seek contrary or narrower formulations using statutory terms, neutral citations, provision numbers, and appellate treatment.
 
+## Case-law discovery and selection
+
+For every material case-law issue:
+
+1. Start from the jurisdiction and applicable court hierarchy supplied by the jurisdiction map.
+2. Search separately for controlling High Court authority; controlling or materially relevant intermediate appellate authority; later cases applying, explaining, distinguishing, limiting or qualifying the leading authorities; superior-court authority in the applicable jurisdiction; factually analogous decisions; significant contrary or competing authority; useful tribunal decisions; and recent cases that may refine the position.
+3. Use citation-history and citing-case searches for treatment, plus statutory language, doctrinal terms and material factual features for application cases. Record repositories, search terms, date ranges and access limits.
+4. Maintain a candidate ledger containing the case name and neutral citation, court, hierarchy, issue, holding or observation, factual fit, later treatment, current statutory context, full-text judgment URL and possible analytical function.
+5. Continue discovery until the hierarchy, treatment and factual searches have been completed and additional authorities are cumulative or do not materially improve the answer. Record the stopping basis. Finding one leading case is not a stopping basis; no fixed number of cases is required.
+6. Select only authorities that perform a necessary function: state the controlling test; explain a disputed element; apply the test to comparable facts; distinguish a materially different arrangement; identify an exception or boundary; reveal conflict or uncertainty; or confirm the current treatment of an older authority.
+7. Exclude cumulative, topically related or weakly analogous cases that do not change the analysis. Never present a lower-level decision as controlling because it is newer or factually similar.
+
 ## Evidence ledger
 
 Maintain a working ledger with: proposition; legal-effect label; source; pinpoint; jurisdiction; authority weight; stronger-authority check; current-status check; contrary material; source dependency; and confidence dimensions. Use `express statutory rule`, `judicial holding`, `judicial interpretation`, `judicial observation`, `regulator interpretation`, `procedural guidance`, `explanatory material`, `reasoned inference`, or `unresolved legal question` where useful. A search-result snippet is not evidence. Open the source.
+
+For every material proposition, add a citation-coverage entry recording whether it is a supplied fact, sourced factual observation, legal rule, authority characterisation, application or inference, qualification, uncertainty statement, confidence assessment, or conclusion; the exact supporting source and pinpoint; citation placement; and any verification gap. User-supplied facts require no external citation but must be labelled as supplied. A sourced factual observation must be cited. An inference must be labelled and tied to the cited legal principle rather than attributed to the source.
 
 For each material statutory proposition, check the exact title and jurisdiction, section and subsection, operative wording, relevant definitions, application and coverage, exceptions and exclusions, cross-references, commencement and current compilation, related provisions, and whether the statement is express or inferred.
 

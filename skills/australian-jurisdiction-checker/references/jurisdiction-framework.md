@@ -11,6 +11,7 @@
 7. **Map confidence by dimension:** distinguish a jurisdiction requiring investigation from legal-system coverage and the eventual substantive conclusion.
 8. **Prioritise uncertainty:** identify which missing facts could most change coverage, forum, deadline, liability, or remedy and state what evidence would resolve them.
 9. **Set the handoff boundary:** state whether substantive research may proceed conditionally, the assumptions required, and which conclusions cannot safely be reached.
+10. **Map the judicial hierarchy:** identify the courts, appellate structures and specialist tribunals capable of producing controlling or materially persuasive authority for each issue. Leave case discovery and final authority selection to the curator/researcher workflow.
 
 ## Mandatory escalation triggers
 

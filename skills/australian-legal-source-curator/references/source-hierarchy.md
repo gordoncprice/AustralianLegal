@@ -22,6 +22,12 @@ Within the relevant jurisdiction and subject to later treatment, ordinarily pref
 
 Check whether the proposition is a holding or observation, whether the court had jurisdiction, factual fit, later appeal or treatment, conflicting authority, and legislative change. Tribunal hierarchy and precedential effect must be verified rather than assumed from the institution's name.
 
+## Case discovery coverage
+
+Plan discovery broadly before selection. For each material issue identify repositories and searches capable of locating the controlling appellate line, later treatment and application, superior-court authority in the governing jurisdiction, materially analogous decisions, contrary or limiting authority, useful specialist or tribunal decisions, and recent doctrinal developments. A single leading case does not complete discovery. Stop only when the recorded hierarchy, citing-treatment and factual searches yield additional authorities that are cumulative or do not materially improve the analysis.
+
+The researcher, not the curator, selects the cases for the final answer. Every selected case must perform an identified function: state the controlling test; explain a disputed element; apply the test to comparable facts; distinguish a materially different arrangement; identify an exception or boundary; reveal conflict or uncertainty; or confirm the current treatment of an older authority. Recency or factual similarity cannot elevate a lower-level decision above controlling authority.
+
 ## Interpretive and contextual support
 
 - Explanatory memoranda, second-reading speeches, parliamentary material and law-reform reports may assist interpretation but are not substitutes for operative text or controlling holdings.

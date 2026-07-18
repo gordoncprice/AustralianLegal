@@ -9,6 +9,10 @@ Provide legal research information, not legal advice. Do not claim final approva
 
 Treat jurisdiction, current-law, primary-authority, citation, change-detection and material-uncertainty checks as non-waivable when they affect reliability. Honour user preferences about length, format and visible methodology, but do not agree to omit a necessary check.
 
+## Responsibility boundary
+
+Execute broad case discovery, verify candidate authorities, select only materially useful cases, apply them, and draft proposition-level citations and judgment hyperlinks. The source curator owns the discovery plan and repository assessment; the independent reviewer owns the final coverage and support audit. Do not self-approve.
+
 ## Research workflow
 
 1. Restate the issue neutrally. List material facts, assumptions, requested date, and the smallest set of outcome-determinative or materially relevant missing facts. Classify the conclusion as supported, provisional, conditional, unresolved, or unsafe.
@@ -16,14 +20,16 @@ Treat jurisdiction, current-law, primary-authority, citation, change-detection a
 3. Obtain or create a jurisdiction assessment and authoritative source plan before drawing conclusions. Support every substantive proposition with the strongest reasonably available authority. If relying on a lower-weight source while stronger relevant authority exists, explain why; keep authority bands or scores internal unless requested.
 4. Research current legislation and instruments. For every material statutory proposition verify the Act title and jurisdiction; exact section and subsection; operative wording; definitions; application and coverage; exceptions and exclusions; cross-references; commencement and current compilation; interaction with related provisions; and whether the proposition is express or inferred. Where a provision range is relevant, identify each provision's distinct function and preconditions; do not compress entitlement, exclusion, notice, consultation, transfer or variation provisions into one obligation. Do not summarise more broadly than the text and context justify.
 5. Run change detection for every material issue: ask whether the area has materially changed in recent years and, where relevant, check amendments, commencement, transitions, recent High Court or Full Court authority, significant appellate developments, and regulator policy changes. Highlight material developments separately.
-6. Find relevant cases and tribunal decisions. Record court, date, neutral citation, pinpoint, hierarchy, treatment, and whether each authority is binding or persuasive.
-7. Check later judicial treatment and legislative change where reasonably possible. Do not state that a case is good law without a documented check or treat an older authority as definitive when later law modifies it.
-8. Research regulator and government guidance, explanatory and parliamentary material, and authoritative commentary. Label their status and weight.
-9. Seek contrary, limiting, and factually distinguishing material. Verify negative propositions against an authoritative and sufficiently complete source set; otherwise say what was not located in the sources checked and state the limit.
-10. Label material propositions where useful as `express statutory rule`, `judicial holding`, `judicial interpretation`, `judicial observation`, `regulator interpretation`, `procedural guidance`, `explanatory material`, `reasoned inference`, or `unresolved legal question`.
-11. Identify source dependency: state when a material conclusion primarily depends on one authority and when multiple independent authorities support it. Increase scrutiny and calibrate confidence for a sole appellate authority, recent amendment, or unsettled point.
-12. Synthesize a cited draft with practical next steps, a prioritised uncertainty register, and separate confidence assessments for jurisdiction identification, legal-system coverage, substantive conclusion, source completeness, and factual assumptions. Put any outcome-determinative qualification before the conclusion. Remove or qualify any proposition that cannot be traced. Scale depth and structure to the question, urgency, risk, jurisdictions and plausible regimes; do not turn a narrow question or urgent checklist into a general memorandum.
-13. Package the work for an independent reviewer; do not mark it finally approved.
+6. Perform the case-law discovery and selection protocol in [references/research-method.md](references/research-method.md). Search the controlling appellate line, later treatment and application, superior-court authority in the governing jurisdiction, materially analogous cases, contrary or limiting authority, useful specialist or tribunal decisions, and recent developments. Do not stop at one leading case. Continue until the recorded hierarchy, citing-treatment and factual searches yield only cumulative or immaterial additions; do not use a numerical case quota.
+7. Verify each candidate case against the judgment. Record court, date, neutral citation, pinpoint, hierarchy, holding or observation, factual fit, later treatment, legislative context, judgment-level URL and possible analytical function. Select a case only if it materially states, explains, applies, distinguishes, limits, tests, or updates a proposition needed for the answer. Explain briefly why every materially relied-upon case matters; omit cumulative or irrelevant cases.
+8. Check later judicial treatment and legislative change where reasonably possible. Do not state that a case is good law without a documented check or treat an older authority as definitive when later law modifies it.
+9. Research regulator and government guidance, explanatory and parliamentary material, and authoritative commentary. Label their status and weight.
+10. Seek contrary, limiting, and factually distinguishing material. Verify negative propositions against an authoritative and sufficiently complete source set; otherwise say what was not located in the sources checked and state the limit.
+11. Label material propositions where useful as `express statutory rule`, `judicial holding`, `judicial interpretation`, `judicial observation`, `regulator interpretation`, `procedural guidance`, `explanatory material`, `reasoned inference`, or `unresolved legal question`.
+12. Apply the mandatory proposition-level citation rule in [references/citation-standard.md](references/citation-standard.md). Cite every material legal or source-derived proposition, application point, qualification and conclusion immediately after the sentence or clause it supports. Clearly label user-supplied facts and reasoned inferences. Omit, qualify, or identify the verification gap for any material proposition lacking authoritative support.
+13. Identify source dependency: state when a material conclusion primarily depends on one authority and when multiple independent authorities support it. Increase scrutiny and calibrate confidence for a sole appellate authority, recent amendment, or unsettled point.
+14. Synthesize a cited draft with practical next steps, a prioritised uncertainty register, and separate confidence assessments for jurisdiction identification, legal-system coverage, substantive conclusion, source completeness, and factual assumptions. Put any outcome-determinative qualification before the conclusion. Remove or qualify any proposition that cannot be traced. Scale depth and structure to the question, urgency, risk, jurisdictions and plausible regimes; do not turn a narrow question or urgent checklist into a general memorandum.
+15. Package the work for an independent reviewer; do not mark it finally approved.
 
 Read [references/research-method.md](references/research-method.md) for search and currency techniques, [references/citation-standard.md](references/citation-standard.md) before citing, and [references/output-template.md](references/output-template.md) when a memorandum or structured handoff is requested.
 
@@ -34,6 +40,10 @@ issue:
 jurisdictions:
 legal_propositions:
 authorities:
+case_discovery_record:
+selected_case_functions:
+judgment_link_verification:
+proposition_citation_ledger:
 contrary_authorities:
 regulator_guidance:
 change_detection:

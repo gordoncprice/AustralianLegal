@@ -1,6 +1,6 @@
 # Source-quality and currency evaluations
 
-Run: `corporations-commonwealth`, `superseded-provision`, `not-yet-commenced`, `conflicting-law-firm-articles`, `guidance-not-law`, `case-affected-by-legislation`, `single-source-specialist`, `competing-authority-weight`, `recent-amendment-transition`, and `regulator-guidance-dependency`.
+Run: `corporations-commonwealth`, `superseded-provision`, `not-yet-commenced`, `conflicting-law-firm-articles`, `guidance-not-law`, `case-affected-by-legislation`, `single-source-specialist`, `competing-authority-weight`, `recent-amendment-transition`, `regulator-guidance-dependency`, `employee-contractor-case-research`, `genuine-redundancy-case-research`, and `insolvent-trading-directors-duties-citations`.
 
 ## Source checks
 
@@ -14,6 +14,10 @@ Run: `corporations-commonwealth`, `superseded-provision`, `not-yet-commenced`, `
 - Categorical negative propositions are supported by authoritative and sufficiently complete sources; otherwise the output records that no matching source was located and states the search limit.
 - Each substantive proposition uses the strongest reasonably available authority; lower-weight reliance is explained and internal authority scores are not exposed unless requested.
 - Material conclusions supported primarily by one authority are identified and scrutinised; repeated secondary descriptions of one source do not count as independent support.
+- Case discovery covers the applicable hierarchy, later treatment, materially analogous cases, contrary or limiting authority, useful specialist decisions and recent developments before stopping; the stopping basis is recorded without a numerical quota.
+- Every selected case performs a stated analytical function; cumulative or irrelevant cases are excluded and lower authority is not overstated because it is recent or factually similar.
+- Every case citation links directly to the best accessible full-text judgment and its link, case name, neutral citation, court, year, pinpoint, later treatment and current statutory fit are verified.
+- Every material rule, sourced fact, application, qualification, uncertainty and conclusion is cited at the point of support; supplied facts and labelled inferences are distinguished.
 
 ## Currency checks
 

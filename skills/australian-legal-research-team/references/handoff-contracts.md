@@ -10,6 +10,7 @@ material_facts:
 assumptions:
 likely_jurisdictions:
 possible_overlaps:
+applicable_court_and_tribunal_hierarchy:
 excluded_jurisdictions:
 missing_facts:
 uncertainty_register:
@@ -37,6 +38,8 @@ jurisdictions:
 primary_sources:
 official_secondary_sources:
 case_law_sources:
+case_discovery_plan:
+judgment_link_plan:
 authority_weight_assessment:
 stronger_authority_check:
 change_detection_sources:
@@ -51,6 +54,16 @@ issue:
 jurisdictions:
 legal_propositions:
 authorities:
+case_discovery_record:
+  hierarchy_searches:
+  later_treatment_searches:
+  analogy_searches:
+  contrary_or_limiting_searches:
+  recent_authority_searches:
+  stopping_basis:
+selected_case_functions:
+judgment_link_verification:
+proposition_citation_ledger:
 contrary_authorities:
 regulator_guidance:
 change_detection:
@@ -84,10 +97,14 @@ unsupported_claims:
 jurisdiction_errors:
 currency_risks:
 authority_weight_defects:
+case_discovery_coverage_defects:
+case_selection_defects:
+judgment_link_defects:
 change_detection_defects:
 source_dependency_risks:
 issue_completeness_defects:
 citation_defects:
+proposition_coverage_defects:
 required_revisions:
 uncertainty_register:
   - issue:
@@ -109,8 +126,13 @@ self_audit:
 
 ```yaml
 material_propositions:
+proposition_types_checked:
+immediate_citation_coverage_checked:
 strongest_authority_checked:
 exact_support_checked:
+judgment_links_and_metadata_checked:
+case_analytical_functions_checked:
+case_dumping_checked:
 overbreadth_checked:
 exceptions_checked:
 currency_checked:
@@ -127,7 +149,12 @@ complete:
 ```yaml
 strongest_authority_used:
 no_stronger_authority_apparently_overlooked:
+case_discovery_sufficient:
+selected_cases_analytically_necessary:
+no_cumulative_case_dumping:
 material_propositions_supported:
+citations_placed_at_point_of_support:
+case_links_and_pinpoints_verified:
 uncertainties_identified_and_prioritised:
 assumptions_separated:
 guidance_distinguished_from_law:
@@ -137,6 +164,8 @@ reviewer_self_audit_complete:
 complete:
 ```
 
-Each authority entry should contain a stable identifier or URL, pinpoint, source type or legal-effect label, official status, relevant date, currency/treatment check, and proposition supported. Each agent must identify tools used, failed checks, and material limitations.
+Each authority entry should contain a stable identifier or direct source URL, pinpoint, source type or legal-effect label, official status, hierarchy, analytical function, relevant date, currency/treatment check, and proposition supported. Every case entry must hyperlink the case name and neutral citation to the best accessible full-text judgment and record link, metadata and pinpoint verification. Each agent must identify tools used, failed checks, and material limitations.
+
+The proposition-citation ledger must cover every material legal or source-derived proposition, authority characterisation, application, qualification, uncertainty, authority-based confidence assessment and conclusion. Mark supplied facts separately. Label inferences and connect them to cited legal principles. Record citation placement and any unresolved support gap.
 
 Rank uncertainty entries as `outcome-determinative`, `materially relevant`, or `secondary/evidentiary`. Ordinarily pass only the first two categories into the final answer. A handoff must place the material qualification before any conclusion that depends on it.

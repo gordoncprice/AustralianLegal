@@ -260,3 +260,55 @@ cases:
     prohibited_behaviours: "Give an unconditional answer; list missing facts without priority or legal impact; mix assumptions into conclusions."
     pass_criteria: "The register identifies the employing entity and legal-system coverage among the highest-impact gaps and tells the solicitor what evidence to obtain next."
     likely_failure_modes: "Generic caveat; unprioritised question list; no practical next steps or deadline warning."
+
+  - id: employee-contractor-case-research
+    prompt: "A Queensland business calls a worker an independent contractor. The worker has an ABN, works fixed full-time hours, uses company equipment, reports to a manager, cannot subcontract, wears a uniform and has no other clients. Research whether the worker is an employee or contractor."
+    expected_trigger: [australian-legal-research-team]
+    expected_not_trigger: []
+    required_process: "Map the applicable federal and Queensland framework and court hierarchy; search the leading High Court line, later application decisions, materially analogous cases and contrary or limiting authority; verify treatment, statutory change, judgment links and pinpoints; independently review proposition coverage."
+    required_output: "Supported and conditional classification analysis; controlling and materially useful cases with direct judgment links, hierarchy, purpose and pinpoints; cited application of the legal principles to each material supplied fact; contrary indicators, uncertainty and research date."
+    prohibited_behaviours: "Treat the contract label or ABN as decisive; rely only on Fair Work Ombudsman guidance; stop after one leading case; cite a case list without analytical functions; leave application statements uncited."
+    pass_criteria: "The answer uses verified leading High Court authority, materially useful later and analogous authority, explains each case's function, and traces every material application and conclusion to authority without case dumping."
+    likely_failure_modes: "Outdated multifactor test; guidance substituted for cases; lower authority overstated; missing links or pinpoints; paragraph-end citation masks several applications."
+
+  - id: genuine-redundancy-case-research
+    prompt: "An employee is dismissed for redundancy, but the same position is immediately advertised and filled. Research whether the dismissal is a genuine redundancy."
+    expected_trigger: [australian-legal-research-team]
+    expected_not_trigger: []
+    required_process: "Verify the current statutory test and applicable instrument; search relevant appellate authority, later application decisions, analogous advertising/refilling cases and material qualifications; verify judgment links, pinpoints, treatment and current statutory fit; independently review."
+    required_output: "Cited statutory elements, controlling and useful application authorities with hierarchy and analytical purpose, supported application to the supplied facts, contrary or limiting authority, material missing facts and conditional conclusion."
+    prohibited_behaviours: "Treat replacement advertising as automatically conclusive; conflate redundancy pay, consultation and s 389; stop at statutory guidance; include cumulative cases without purpose; give an uncited conclusion."
+    pass_criteria: "The answer identifies the statutory test, materially relevant appellate and application authority, explains qualifications and traces every material application and conclusion to authority."
+    likely_failure_modes: "Single-case answer; FWO-only analysis; unsupported inference from the advertisement; no instrument or redeployment analysis; non-judgment links."
+
+  - id: insolvent-trading-directors-duties-citations
+    prompt: "Review this statement: section 181 of the Corporations Act 2001 requires directors to prevent insolvent trading. Trace every correction to legislation or authority and distinguish the separate duties."
+    expected_trigger: [australian-legal-reviewer]
+    expected_not_trigger: [australian-legal-research-team, australian-legal-research]
+    required_process: "Freeze the supplied statement; verify the current text and separate functions of ss 181 and 588G and any material qualifications; audit every correction and reviewer-introduced proposition for immediate authoritative support."
+    required_output: "Severity and affected proposition; separately cited corrections for s 181 and the insolvent-trading framework; qualifications; direct primary-source links; reviewer-new-proposition ledger and self-audit."
+    prohibited_behaviours: "Correct the section number under one paragraph-end citation; imply the two duties are interchangeable; introduce uncited statutory elements or case propositions; approve without proposition-level review."
+    pass_criteria: "Each correction and distinction is immediately traceable to current legislation or verified authority, with no unsupported reviewer proposition."
+    likely_failure_modes: "Right answer with wrong or remote citations; elements compressed; guidance used as law; reviewer introduces a different unsupported proposition."
+
+  - id: citation-density-failure
+    prompt: "Review the attached plausible legal answer. It contains several uncited application statements and places one citation only at the end of each long paragraph. Identify every citation-coverage defect."
+    fixture_requirements: "Provide a frozen draft with at least three long paragraphs. Each paragraph must combine distinct legal rules, sourced observations, applications or conclusions, but contain only one end citation that supports no more than part of the paragraph. Mark the intentionally unsupported propositions in the evaluator-only answer key, not in the reviewer prompt."
+    expected_trigger: [australian-legal-reviewer]
+    expected_not_trigger: [australian-legal-research-team, australian-legal-research]
+    required_process: "Build a sentence-and-clause proposition ledger; distinguish supplied facts, sourced observations and inferences; open each citation; test full and immediate support; classify defects and self-audit reviewer propositions."
+    required_output: "Individual unsupported or partially supported propositions; remote-placement defects; required sentence splitting or clause citations; application-to-principle gaps; severity and exact correction."
+    prohibited_behaviours: "Treat one paragraph-end citation as supporting every claim; report only a generic need for more citations; count citations instead of testing support; rewrite silently."
+    pass_criteria: "Every material uncited, partially supported or remotely cited proposition is identified individually and the required point-of-support correction is stated."
+    likely_failure_modes: "Paragraph-level rather than proposition-level audit; no distinction between supplied facts and inference; citation authenticity mistaken for support."
+
+  - id: case-dumping-failure
+    prompt: "Review the attached answer, which lists many loosely related Australian cases but does not explain why any of them matters. Determine whether the authorities are adequate."
+    fixture_requirements: "Provide a frozen answer containing a verified controlling authority, materially useful later or contrary authority, and a substantially longer set of cumulative, weakly analogous or irrelevant cases. Use authentic citations and judgment links. Record each authority's intended keep/remove classification and reason in the evaluator-only answer key, not in the reviewer prompt."
+    expected_trigger: [australian-legal-reviewer]
+    expected_not_trigger: [australian-legal-research-team, australian-legal-research]
+    required_process: "Verify the controlling hierarchy and discovery coverage; assign or test an analytical function for each materially relied-upon case; identify cumulative, irrelevant, lower-level or unsupported authorities; audit links and pinpoints."
+    required_output: "Controlling authorities retained, necessary later/analogous/contrary authorities identified, cumulative or irrelevant cases rejected, analytical purpose required for each retained case, and severity-based revisions."
+    prohibited_behaviours: "Treat citation volume as quality; preserve a long list without purpose; prefer recent lower authority over controlling precedent; demand a fixed numerical quota."
+    pass_criteria: "The reviewer rejects cumulative and irrelevant authorities, preserves necessary hierarchy and coverage, and requires each included case to perform a clear analytical function."
+    likely_failure_modes: "Case count used as metric; no hierarchy check; all cases accepted as topically relevant; useful contrary authority removed with the padding."

@@ -2,6 +2,8 @@
 
 These are host-run behavioural evaluations, not deterministic unit tests. For each case in `test-cases.yaml`, start with a fresh task, expose only the installed skills and stated prompt/fixtures, capture the selected skill(s), role artefacts, tools/sources, draft, review decision, revisions, and final answer, then score against the case.
 
+Where a case contains `fixture_requirements`, create and freeze that raw fixture before the run. Keep the evaluator-only answer key outside the agent-visible workspace. Use only authentic legal citations and judgment links in fixtures; deliberately unsupported propositions must be plausible but must not depend on fabricated authority.
+
 ## Run order
 
 1. Validate repository structure and YAML front matter.
@@ -27,7 +29,7 @@ Confirm exactly five first-level skill directories, substantive instructions and
 
 ## Scoring
 
-Score each dimension 0 (fail), 1 (partial), or 2 (pass): trigger accuracy, jurisdiction accuracy, authority selection, issue completeness, source quality, citation traceability, change detection, legal currency, source-dependency analysis, reviewer independence, uncertainty handling, usefulness, and proportional agent/tool use. Any fabricated citation, central jurisdiction error, overlooked controlling authority, unacknowledged obsolete law, or critical review issue surviving delivery is an overall failure.
+Score each dimension 0 (fail), 1 (partial), or 2 (pass): trigger accuracy, jurisdiction accuracy, case-discovery breadth, authority selection, issue completeness, source quality, proposition-level citation coverage, judgment-link and pinpoint integrity, change detection, legal currency, source-dependency analysis, reviewer independence, uncertainty handling, usefulness, and proportional agent/tool use. Any fabricated citation, central jurisdiction error, overlooked controlling authority, unacknowledged obsolete law, unsupported material conclusion, central case link resolving to the wrong source, or critical review issue surviving delivery is an overall failure.
 
 Some evaluations require live web access and cannot be fully executed through static file inspection. Record them as not run, never as passed, when the host cannot open and verify current sources.
 
