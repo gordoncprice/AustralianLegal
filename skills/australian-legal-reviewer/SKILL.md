@@ -7,20 +7,27 @@ description: Independently challenge and quality-check a draft Australian legal 
 
 Act as a sceptical reviewer independent from the researcher. Expose defects rather than polishing them out. Review against the user's question, facts, jurisdiction map, source plan, authorities, citations, unresolved issues, and draft.
 
+## Responsibility boundary
+
+Independently audit case-discovery coverage, final case selection, authority hierarchy, judgment hyperlinks, metadata, pinpoints, proposition-level citation support and placement. Do not repeat the researcher's discovery work without identifying the coverage defect being tested, and do not treat citation volume as quality.
+
+Treat the shared internal research record as the discovery evidence. Reopen material selected sources and audit the searches and rejection reasons. Do not rerun the full research process. Request a targeted supplementary search only for a named missing authority category, treatment gap, unsupported proposition, currency defect or failed link, and require the result to be appended to the same record.
+
 ## Review procedure
 
 1. Build a proposition-to-source ledger. Verify that each material source supports the claimed proposition and that quotations match the source. Classify material propositions where useful as `express statutory rule`, `judicial holding`, `judicial interpretation`, `judicial observation`, `regulator interpretation`, `procedural guidance`, `explanatory material`, `reasoned inference`, or `unresolved legal question`.
 2. Recheck jurisdiction, territorial application, national-scheme coverage, exclusions, referrals, applied laws, and cross-border qualifications.
 3. For every material statutory proposition recheck the Act title and jurisdiction; exact section and subsection; operative wording; definitions; application and coverage; exceptions and exclusions; cross-references; commencement and current compilation; interaction with related provisions; and whether the proposition is express or inferred.
-4. Recheck case hierarchy, pinpoint support, subsequent treatment, and legislative effects. Distinguish binding from persuasive authority and confirm that each substantive proposition uses the strongest reasonably available authority. Require an explanation when a lower-weight source is used despite stronger relevant authority; do not expose numerical authority scores unless requested.
-5. Reperform proportionate change detection for every material issue. Check whether amendments, commencement or transitions, recent High Court or Full Court authority, significant appellate developments, or regulator policy changes modify the draft.
+4. Recheck case hierarchy, discovery coverage, selection, pinpoint support, subsequent treatment, legislative effects and judgment links. Confirm that the researcher searched beyond one leading case until additional results were cumulative; considered materially relevant later, analogous, contrary and limiting authority; assigned each selected case an analytical function; and omitted cumulative case lists. Distinguish binding from persuasive and lower-court or tribunal authority and confirm that each substantive proposition uses the strongest reasonably available authority. Require an explanation when a lower-weight source is used despite stronger relevant authority; do not expose numerical authority scores unless requested.
+5. Audit the recorded change detection for every material issue and reopen the material currency sources. Check whether the record adequately addresses amendments, commencement or transitions, recent High Court or Full Court authority, significant appellate developments, and regulator policy changes. Perform a new search only for a named coverage or currency deficiency.
 6. Identify guidance presented as law, secondary material standing in for available primary authority, ignored contrary authority, and unsupported inference.
 7. Review source dependency. Flag material conclusions that depend heavily on one authority, especially a sole appellate decision, recently amended legislation, or an unsettled point, and verify any claim of multiple independent support.
-8. Challenge overstatement, fact-sensitive tests, missing material facts, false precision, citation defects, and an excessive or absent disclaimer. Confirm that the uncertainty register prioritises each material gap by legal impact and identifies the information required.
-9. Confirm that the response answers the actual question at an appropriate length, covers all reasonably arising material issues without irrelevant expansion, and gives useful factual, documentary, deadline, and procedural next steps where appropriate.
-10. Assess confidence separately for jurisdiction identification, legal-system coverage, substantive conclusion, source completeness, and factual assumptions.
-11. Assign `pass`, `pass with revisions`, or `fail pending further research`. Never choose `pass` while a critical or major defect remains.
-12. Complete a final reviewer self-audit before returning findings: list every factual or legal proposition introduced by the reviewer; verify each against an authoritative source; remove unnecessary supporting detail that creates verification risk; and remove or qualify any unverified proposition. Use the minimum verified proposition needed to establish a defect. Do not use a new unverified fact to support a correct criticism.
+8. Apply [references/citation-review-checklist.md](references/citation-review-checklist.md) sentence by sentence. Identify every material uncited proposition; partial or remote support; multiple claims hidden under one citation; unsupported application or conclusion; overbroad statement; incorrect link, metadata or pinpoint; unexplained case function; and cumulative or irrelevant authority. Confirm that citations immediately follow what they support and that user-supplied facts, sourced observations and inferences are distinguished.
+9. Challenge overstatement, fact-sensitive tests, missing material facts, false precision, citation defects, and an excessive or absent disclaimer. Confirm that the uncertainty register prioritises each material gap by legal impact and identifies the information required.
+10. Confirm that the response answers the actual question at an appropriate length, covers all reasonably arising material issues without irrelevant expansion, and gives useful factual, documentary, deadline, and procedural next steps where appropriate.
+11. Assess confidence separately for jurisdiction identification, legal-system coverage, substantive conclusion, source completeness, and factual assumptions.
+12. Certify separately whether the jurisdiction, authority-discovery, authority-selection, citation-coverage and link-verification gates pass. Assign `pass`, `pass with revisions`, or `fail pending further research`. Fail any unsupported material legal or sourced factual proposition, authority characterisation, statutory description, application, qualification, exception, uncertainty or conclusion. Never choose `pass` while a mandatory gate, critical defect or major defect remains unresolved.
+13. Complete a final reviewer self-audit before returning findings: list every factual or legal proposition introduced by the reviewer; verify each against an authoritative source; remove unnecessary supporting detail that creates verification risk; and remove or qualify any unverified proposition. Use the minimum verified proposition needed to establish a defect. Do not use a new unverified fact to support a correct criticism.
 
 For negative propositions, distinguish `not located` from `does not exist`. Do not claim that an authority is the first, last, highest, or only one in a series unless that exact fact is verified through an authoritative and sufficiently complete source.
 
@@ -30,6 +37,13 @@ Use [references/review-rubric.md](references/review-rubric.md), [references/lega
 
 ```yaml
 decision:
+gate_certification:
+  jurisdiction:
+  authority_discovery:
+  authority_selection:
+  citation_coverage:
+  link_verification:
+specific_deficiencies_requiring_targeted_research:
 critical_issues:
 major_issues:
 minor_issues:
@@ -37,10 +51,14 @@ unsupported_claims:
 jurisdiction_errors:
 currency_risks:
 authority_weight_defects:
+case_discovery_coverage_defects:
+case_selection_defects:
+judgment_link_defects:
 change_detection_defects:
 source_dependency_risks:
 issue_completeness_defects:
 citation_defects:
+proposition_coverage_defects:
 required_revisions:
 uncertainty_register:
 confidence:

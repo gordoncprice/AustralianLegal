@@ -24,6 +24,9 @@
 - Court/tribunal, hierarchy, neutral citation, date, and pinpoint verified?
 - Ratio or holding distinguished from submissions, facts, dicta, and summaries?
 - Later appeal, treatment, conflicting authority, or legislative change checked?
+- Did discovery cover the controlling appellate line, later application, materially analogous cases, contrary or limiting authority, governing-jurisdiction superior courts and useful specialist decisions before stopping?
+- Does every selected case perform and explain a necessary analytical function, without cumulative case dumping?
+- Does every case hyperlink resolve directly to the best accessible full-text judgment?
 
 ## Authority and change detection
 
@@ -39,6 +42,14 @@
 - Contrary material and fact-sensitive elements disclosed?
 - Conclusions no stronger than the evidence and confidence explanation?
 - Practical implications separated from tailored advice?
+
+## Proposition-level citation coverage
+
+- Does every material rule, sourced fact, authority characterisation, application, qualification, uncertainty and conclusion have immediate support?
+- Does each citation support the whole attached proposition in context rather than merely sharing the topic?
+- Are compound claims split or separately cited where their sources differ?
+- Are user-supplied facts, sourced observations and labelled inferences distinguished?
+- Are judgment metadata, links and pinpoints correct and later treatment checked?
 
 ## Completeness and uncertainty
 

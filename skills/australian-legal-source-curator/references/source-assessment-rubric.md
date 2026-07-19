@@ -21,6 +21,8 @@ Score each dimension from 0 to 2 and explain any zero. A high total does not cur
 
 Record publisher, jurisdiction, subject coverage, source type, authority level, official status, typical use, limitations, preferred citation, currency method, and verification date.
 
+For a case source, also record the full-text judgment URL, whether the link resolves to the intended judgment, case name, neutral citation, court, year, available pinpoints, later-treatment route, and the analytical function the candidate might serve. Prefer an official court or authorised publication, then an official government or judicial repository, then AustLII, Jade or another reputable legal database. Reject a link to a search page or secondary description when a judgment-level link is available.
+
 Keep the numerical rubric internal unless the user specifically requests scores. In the source plan, explain authority weight qualitatively and record whether a stronger reasonably available source was checked. A lower-weight source cannot be upgraded merely because it is current, official, or convenient.
 
 ## Negative propositions

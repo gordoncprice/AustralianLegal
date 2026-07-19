@@ -7,6 +7,12 @@ description: Build an authoritative source plan for Australian legal research an
 
 Create a source plan, not a substantive legal answer. Research the question's actual jurisdictions and subject matter; do not treat the bundled register as exhaustive or permanently current.
 
+## Responsibility boundary
+
+Design and validate the case-discovery plan, repositories, source hierarchy and access route. Specify how the researcher will find controlling, later, analogous, contrary and specialist authority and obtain judgment-level links. Do not decide which cases ultimately carry the analysis, apply cases to facts, or draft the substantive answer.
+
+Create one reproducible source plan for the frozen issue specification. Use the same repository order, authority categories and search limits for substantially identical inputs. Pass that plan forward; do not repeat searches assigned to the researcher.
+
 ## Procedure
 
 1. Take an issue and jurisdiction map as inputs. Identify the source types needed for each proposition.
@@ -17,16 +23,23 @@ Create a source plan, not a substantive legal answer. Research the question's ac
 6. Distinguish law from regulator guidance and official from unofficial republication. Use AustLII and commentary for discovery or gap-filling, then trace material propositions to primary sources where available.
 7. Include commercial databases only as optional aids. Never make paid access a condition of the plan.
 8. Identify sources needed to detect material recent change, including amendments, commencement and transitional material, recent controlling or appellate authority, and regulator policy revisions where relevant.
-9. Explain unavailable or unverified sources and propose a safe fallback. Use `not located in the sources checked` rather than `does not exist` unless an authoritative, sufficiently complete register or source establishes the negative claim.
+9. For every material case-law issue, specify searches in this fixed order: governing legislation; controlling High Court authority; controlling or materially relevant intermediate appellate authority; later treatment; superior-court authority in the applicable jurisdiction; material contrary or limiting authority; materially useful analogy; specialist or tribunal authority; and recent developments. Record a category as `not required` only with a reason tied to the issue and research-depth classification. Do not impose a numerical quota.
+10. Specify the preferred full-text link for each candidate repository: official court judgment or authorised court publication; otherwise an official government or judicial repository; otherwise AustLII, Jade or another reputable legal database. Reject search-result, summary, blog, news, AI-generated and commentary links when the judgment is accessible.
+11. Explain unavailable or unverified sources and propose a safe fallback. Use `not located in the sources checked` rather than `does not exist` unless an authoritative, sufficiently complete register or source establishes the negative claim.
 
 ## Output contract
 
 ```yaml
 issue:
 jurisdictions:
+research_specification_version:
+research_depth: focused | comprehensive
 primary_sources:
 official_secondary_sources:
 case_law_sources:
+ordered_case_discovery_plan:
+authority_categories_not_required_with_reasons:
+judgment_link_plan:
 authority_weight_assessment:
 stronger_authority_check:
 change_detection_sources:
@@ -37,3 +50,5 @@ source_completeness_confidence:
 ```
 
 For each source record publisher, jurisdiction, coverage, type, authority level, official status, typical use, limitations, preferred citation, and currency check.
+
+Give the researcher the plan once. Require the shared internal research record to capture execution, candidates, selection, rejection, verified links, gaps and the stopping basis. Do not create a competing source record.

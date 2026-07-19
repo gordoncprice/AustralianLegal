@@ -17,9 +17,10 @@ Jurisdiction and system-coverage analysis are legal quality controls, not presen
 4. Map every relevant state and territory, including cross-border connections and public-sector or local-government exceptions.
 5. Check concurrent operation, inconsistency, displacement, choice-of-law, enforcement, forum, and territorial reach issues without resolving constitutional questions beyond the verified authorities.
 6. Separate likely, additionally possible, and excluded or unlikely regimes. Support exclusions and other negative propositions with sufficiently complete authoritative research; otherwise say what was not located or verified rather than asserting non-existence.
-7. Prioritise the core issues. Put peripheral regimes under `additional_issues_if_relevant` and include taxation, privacy, licensing, payroll tax, or similar matters only when the facts make them material.
-8. State the recommended research scope, unresolved questions, warnings, and separate confidence assessments for jurisdiction identification, legal-system coverage, substantive conclusion, source completeness, and factual assumptions. Distinguish confidence that a jurisdiction requires investigation from confidence that a particular law applies.
-9. When auditing a draft, verify every cited law and conclusion against the map; flag national-scheme exceptions and unsupported jurisdiction assumptions.
+7. Identify the court and tribunal hierarchy relevant to each material issue, including the controlling appellate level and any specialist appellate or Full Bench structure. Do not discover or select the substantive cases.
+8. Prioritise the core issues. Put peripheral regimes under `additional_issues_if_relevant` and include taxation, privacy, licensing, payroll tax, or similar matters only when the facts make them material.
+9. State the recommended research scope, unresolved questions, warnings, and separate confidence assessments for jurisdiction identification, legal-system coverage, substantive conclusion, source completeness, and factual assumptions. Distinguish confidence that a jurisdiction requires investigation from confidence that a particular law applies.
+10. When auditing a draft, verify every cited law and conclusion against the map; flag national-scheme exceptions and unsupported jurisdiction assumptions.
 
 Always escalate for potential Commonwealth/state or territory coverage, place of work, employer location or identity, contract formation, remote or interstate work, state statutory entitlements, workers compensation, long service leave, discrimination, public-sector or local-government employment, constitutional-corporation status, referral arrangements, foreign elements, choice of law, or forum. Keep the map brief where the connection is simple.
 
@@ -35,6 +36,7 @@ material_facts:
 assumptions:
 likely_jurisdictions:
 possible_overlaps:
+applicable_court_and_tribunal_hierarchy:
 excluded_jurisdictions:
 missing_facts:
 uncertainty_register:
